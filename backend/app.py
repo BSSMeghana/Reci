@@ -6,6 +6,7 @@ import pandas as pd
 from urllib.parse import quote
 from urllib.request import urlopen
 import json
+from pathlib import Path
 import ssl
 
 try:
@@ -13,14 +14,16 @@ try:
 except ImportError:
     certifi = None
 
-# Load model and vectorizers
-model = joblib.load('nb_model.pkl')
-vectorizer_dish = joblib.load('vectorizer_dish.pkl')
-vectorizer_ingredients = joblib.load('vectorizer_ingredients.pkl')
-vectorizer_dietary = joblib.load('vectorizer_dietary.pkl')
-label_encoder = joblib.load('label_encoder.pkl')
+BASE_DIR = Path(__file__).resolve().parent
 
-df = pd.read_csv('oosedataset.csv')
+# Load model and vectorizers
+model = joblib.load(BASE_DIR / 'nb_model.pkl')
+vectorizer_dish = joblib.load(BASE_DIR / 'vectorizer_dish.pkl')
+vectorizer_ingredients = joblib.load(BASE_DIR / 'vectorizer_ingredients.pkl')
+vectorizer_dietary = joblib.load(BASE_DIR / 'vectorizer_dietary.pkl')
+label_encoder = joblib.load(BASE_DIR / 'label_encoder.pkl')
+
+df = pd.read_csv(BASE_DIR / 'oosedataset.csv')
 df["Dietary Info"] = df["Dietary Info"].fillna("")
 df["Category"] = df["Category"].fillna("")
 
@@ -509,6 +512,7 @@ def get_csv_recommendations(ingredients, filters=None):
 
 
 @app.route('/recommend', methods=['POST'])
+@app.route('/api/recommend', methods=['POST'])
 def recommend():
     data = request.json
     if data is None:

@@ -2,6 +2,10 @@ import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import axios from 'axios';
 import './Reci.css';
 
+const isLocalHost = ['localhost', '127.0.0.1', '::1'].includes(window.location.hostname);
+const API_BASE_URL = process.env.REACT_APP_API_URL || (isLocalHost ? 'http://127.0.0.1:5000' : '');
+const RECOMMEND_ENDPOINT = `${API_BASE_URL}/api/recommend`;
+
 function Reci() {
   const [input, setInput] = useState('');
   const [dietary, setDietary] = useState('');
@@ -94,7 +98,7 @@ function Reci() {
     setError(null);
 
     try {
-      const response = await axios.post('http://127.0.0.1:5000/recommend', {
+      const response = await axios.post(RECOMMEND_ENDPOINT, {
         ingredients,
         filters,
       });
