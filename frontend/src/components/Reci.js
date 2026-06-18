@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import axios from 'axios';
 import './Reci.css';
 
 function Reci() {
   const [input, setInput] = useState('');
   const [dietary, setDietary] = useState('');
-  const [cuisine, setCuisine] = useState('');
+  const [cuisine, setCuisine] = useState('Indian');
   const [mealType, setMealType] = useState('');
   const [mood, setMood] = useState('');
   const [dishType, setDishType] = useState('');
@@ -46,25 +46,14 @@ function Reci() {
     'Biscuits',
   ];
 
-  const handleSearch = async (event) => {
-    if (event) {
-      event.preventDefault();
-    }
-
+  const fetchRecommendations = useCallback(async (ingredients, filters) => {
     setLoading(true);
     setError(null);
-    const ingredients = input.split(',').map(i => i.trim()).filter(Boolean);
 
     try {
       const response = await axios.post('http://127.0.0.1:5000/recommend', {
         ingredients,
-        filters: {
-          dietary,
-          cuisine,
-          mealType,
-          mood,
-          dishType,
-        },
+        filters,
       });
       setResults(response.data);
     } catch (err) {
@@ -72,6 +61,32 @@ function Reci() {
     } finally {
       setLoading(false);
     }
+  }, []);
+
+  useEffect(() => {
+    fetchRecommendations([], {
+      dietary: '',
+      cuisine: 'Indian',
+      mealType: '',
+      mood: '',
+      dishType: '',
+    });
+  }, [fetchRecommendations]);
+
+  const handleSearch = async (event) => {
+    if (event) {
+      event.preventDefault();
+    }
+
+    const ingredients = input.split(',').map(i => i.trim()).filter(Boolean);
+
+    fetchRecommendations(ingredients, {
+      dietary,
+      cuisine,
+      mealType,
+      mood,
+      dishType,
+    });
   };
 
   return (

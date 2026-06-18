@@ -5,6 +5,7 @@ import Reci from './components/Reci';
 import BubbleText from './components/BubbleText';
 import Box from './components/Box';
 import About from './components/About';
+import FloatingEmail from './components/FloatingEmail';
 import './App.css';
 
 
@@ -28,6 +29,7 @@ function App() {
           <Reci />
         </>
       )}
+      <FloatingEmail />
     </>
   );
 }

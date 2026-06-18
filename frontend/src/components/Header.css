@@ -5,6 +5,8 @@
   padding: 20px;
   background-color: transparent;
   position: relative;
+  height: 10px;
+  z-index: 30;
 }
 
 .reci-text {
@@ -21,10 +23,33 @@
   word-wrap: break-word;
   position: absolute;
   cursor: pointer;
+  z-index: 31;
 }
 
-.docs-text {
-  top: 20px;      /* adjust as needed */
+.github-text {
+  top: 40px;      /* adjust as needed */
+  right: 100px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: white;
+  font-size: 40px;
+  font-family: 'BoxFont', system-ui;
+  font-style: normal;
+  font-weight: 500;
+  word-wrap: break-word;
+  position: absolute;
+  text-decoration: none;
+  cursor: pointer;
+  z-index: 31;
+}
+
+.github-text:hover {
+  color: #d8e4a4;
+}
+
+.about-text {
+  top: 40px;      /* adjust as needed */
   right: 200px;
   padding: 0;
   border: 0;
@@ -38,33 +63,23 @@
   position: absolute;
   text-decoration: none;
   cursor: pointer;
+  z-index: 31;
 }
 
-.docs-text:hover {
+.about-text:hover {
   color: #d8e4a4;
-}
-
-.oose-text {
-  top: 20px;      /* adjust as needed */
-  right: 100px;
-  color: white;
-  font-size: 40px;
-  font-family: 'BoxFont', system-ui;
-  font-weight: 500;
-  word-wrap: break-word;
-  position: absolute;
 }
 
 @font-face {
   font-family: 'BoxFont';
-  src: url('/public/Brickshapers.ttf') format('truetype');
+  src: url('../../public/Brickshapers.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'LCDSolid';
-  src: url('/public/lcdsolid.ttf') format('truetype');
+  src: url('../../public/lcdsolid.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
