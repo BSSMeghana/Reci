@@ -1,0 +1,70 @@
+/* src/components/Header.css */
+.header-container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: transparent;
+  position: relative;
+}
+
+.reci-text {
+  top: 30px;      /* adjust as needed */
+  left: 100px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: white;
+  font-size: 70px;
+  font-family: 'LCDSolid', monospace;
+  font-style: normal;
+  font-weight: 500;
+  word-wrap: break-word;
+  position: absolute;
+  cursor: pointer;
+}
+
+.docs-text {
+  top: 20px;      /* adjust as needed */
+  right: 200px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: white;
+  font-size: 40px;
+  font-family: 'BoxFont', system-ui;
+  font-style: normal;
+  font-weight: 500;
+  word-wrap: break-word;
+  position: absolute;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.docs-text:hover {
+  color: #d8e4a4;
+}
+
+.oose-text {
+  top: 20px;      /* adjust as needed */
+  right: 100px;
+  color: white;
+  font-size: 40px;
+  font-family: 'BoxFont', system-ui;
+  font-weight: 500;
+  word-wrap: break-word;
+  position: absolute;
+}
+
+@font-face {
+  font-family: 'BoxFont';
+  src: url('/public/Brickshapers.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LCDSolid';
+  src: url('/public/lcdsolid.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,53 @@
+.bubbleWrapper {
+  text-align: center;
+  font-size: 110px;
+  margin-top: -10px;
+  color: white; /* indigo-300 */
+  font-family: "BoxFont", system-ui;
+  font-style: normal;
+  letter-spacing: 4px;
+  font-weight: 10;
+  margin-bottom: 10px;
+
+}
+
+.hoverText {
+  display: inline-block;
+  transition:
+    0.25s font-weight ease,
+    0.25s color ease;
+}
+
+/* Main hovered letter */
+.hoverText:hover {
+  font-weight: 800;
+  color: #e6ec32;
+  transform: translateY(-5px);
+}
+
+/* Right neighbor 1 */
+.hoverText:hover + .hoverText {
+  font-weight: 500;
+  color: #e7ec62;
+}
+
+
+/* Left neighbor 1 */
+.hoverText:has(+ .hoverText:hover) {
+  font-weight: 500;
+  color: #e7ec62;
+}
+
+@font-face {
+  font-family: 'LCDSolid';
+  src: url('/public/lcdsolid.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BoxFont';
+  src: url('/public/Brickshapers.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

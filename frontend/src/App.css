@@ -1,0 +1,16 @@
+/* index.css or App.css */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: rgb(5, 5, 5);
+  color: white; /* Optional: sets text to white */
+  font-family: 'Mouse Memoirs', sans-serif;
+}
+
+/* Optional: ensure .App stretches full height */
+.App {
+  min-height: 100vh;
+  background-color: black;
+  text-align: center;
+}

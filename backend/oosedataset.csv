@@ -1,0 +1,645 @@
+Recipe_ID,Dish Name,Ingredients,Dietary Info,Category
+1,Idli,"Rice, Urad dal, Fenugreek seeds, Water, Salt",Veg,Breakfast
+2,Dosa,"Rice, Urad dal, Fenugreek seeds, Water, Salt, Oil",Veg,Breakfast
+3,Masala Dosa,"Rice, Urad dal, Fenugreek seeds, Potatoes, Onion, Green chilies, Mustard seeds, Curry leaves",Veg,Breakfast
+4,Sambar,"Toor dal, Tamarind, Vegetables (drumstick, carrot, beans), Mustard seeds, Curry leaves, Spices",Veg,Curry
+5,Rasam,"Tamarind, Tomatoes, Toor dal, Black pepper, Cumin, Mustard seeds, Garlic, Curry leaves",Veg,Soup
+6,Pongal,"Rice, Moong dal, Black pepper, Cumin, Cashews, Ghee, Ginger, Curry leaves",Veg,Rice
+7,Upma,"Rava (semolina), Mustard seeds, Green chilies, Curry leaves, Ginger, Vegetables, Ghee",Veg,Breakfast
+8,Vada,"Urad dal, Green chilies, Ginger, Curry leaves, Black pepper, Hing, Oil",Veg,Appetizer
+9,Bisi Bele Bath,"Rice, Toor dal, Tamarind, Bisi bele bath powder, Vegetables, Ghee, Mustard seeds",Veg,Rice
+10,Avial,"Mixed vegetables, Coconut, Curd, Green chilies, Curry leaves, Coconut oil",Veg,Curry
+11,Pesarattu,"Green gram (moong dal), Ginger, Green chilies, Cumin, Onion",Veg,Breakfast
+12,Kuzhi Paniyaram,"Rice, Urad dal, Curry leaves, Mustard seeds, Green chilies, Onion",Veg,Appetizer
+13,Appam,"Rice, Coconut milk, Yeast, Sugar, Salt",Veg,Breakfast
+14,Parotta,"Maida (refined flour), Ghee, Water, Salt",Veg,Bread
+15,Kootu,"Mixed vegetables, Moong dal, Coconut, Green chilies, Cumin, Mustard seeds",Veg,Curry
+16,Puliyodarai (Tamarind Rice),"Rice, Tamarind, Mustard seeds, Curry leaves, Peanuts, Turmeric",Veg,Rice
+17,Lemon Rice,"Rice, Lemon juice, Mustard seeds, Curry leaves, Green chilies, Turmeric, Peanuts",Veg,Rice
+18,Curd Rice,"Rice, Curd, Mustard seeds, Curry leaves, Green chilies, Ginger",Veg,Rice
+19,Nei Payasam,"Rice, Jaggery, Ghee, Cardamom, Coconut, Cashews, Raisins",Veg,Dessert
+20,Chettinad Chicken Curry,"Chicken, Coconut, Black pepper, Fennel seeds, Curry leaves, Onion, Tomatoes, Garlic",Non-Veg,Curry
+21,Chicken 65,"Chicken, Yogurt, Ginger-garlic paste, Curry leaves, Green chilies, Spices",Non-Veg,Appetizer
+22,Fish Curry (Meen Kuzhambu),"Fish, Tamarind, Garlic, Mustard seeds, Fenugreek, Curry leaves, Coconut",Non-Veg,Curry
+23,Mutton Sukka,"Mutton, Onion, Curry leaves, Black pepper, Fennel seeds, Coconut",Non-Veg,Side Dish
+24,Thalassery Biryani,"Basmati rice, Chicken, Yogurt, Onion, Tomato, Garam masala, Ghee, Saffron",Non-Veg,Rice
+25,Parle-G Biscuit Cake,"Parle-G biscuits, Milk, Baking powder, Sugar, Cocoa powder (optional)",Veg,Cake
+26,Marie Biscuit Pudding,"Marie biscuits, Milk, Sugar, Cocoa powder, Coffee powder (optional)",Veg,Dessert
+27,Rusk (Indian Toast),"Wheat flour, Sugar, Baking powder, Milk powder, Butter",Veg,Baked Good
+28,Atta Biscuits,"Whole wheat flour, Sugar, Ghee, Cardamom",Veg,Biscuit
+29,Nankhatai,"Gram flour (Besan), All-purpose flour, Sugar, Ghee, Cardamom",Veg,Biscuit
+30,Jeera Biscuits,"Wheat flour, Butter, Cumin seeds, Sugar, Baking soda",Veg,Biscuit
+31,Chocolate Barfi,"Milk powder, Cocoa powder, Condensed milk, Sugar, Ghee",Veg,Sweet
+32,Milk Barfi,"Milk powder, Sugar, Cardamom, Ghee",Veg,Sweet
+33,Kaju Katli,"Cashew nuts, Sugar, Ghee",Veg,Sweet
+34,Coconut Ladoo,"Desiccated coconut, Condensed milk, Sugar, Cardamom",Veg,Sweet
+35,Til Chikki,"Sesame seeds, Jaggery, Ghee",Veg,Snack
+36,Peanut Chikki,"Peanuts, Jaggery, Ghee",Veg,Snack
+37,Ragi Cookies,"Ragi flour, Jaggery, Butter, Baking powder",Veg,Biscuit
+38,Oats Laddu,"Oats, Jaggery, Ghee, Cardamom",Veg,Sweet
+39,Besan Ladoo,"Gram flour, Sugar, Ghee",Veg,Sweet
+40,Sooji Halwa Cake,"Semolina (Sooji), Sugar, Ghee, Cardamom",Veg,Cake
+41,Peda,"Khoya (Mawa), Sugar, Cardamom",Veg,Sweet
+42,Shakkar Para,"Wheat flour, Sugar, Ghee",Veg,Snack
+43,Mathri,"Wheat flour, Cumin, Ajwain, Salt, Ghee",Veg,Snack
+44,Baked Gujiya,"Whole wheat flour, Khoya, Dry fruits, Sugar",Veg,Baked Good
+45,Dry Fruit Cake,"Wheat flour, Mixed nuts, Sugar, Baking powder",Veg,Cake
+46,Rasgulla Chocolate Mousse,"Rasgulla, Cocoa powder, Fresh cream, Sugar",Veg,Dessert
+47,Mango Fudge,"Mango pulp, Condensed milk, Sugar",Veg,Sweet
+48,Choco Modak,"Milk powder, Cocoa powder, Sugar, Ghee",Veg,Sweet
+49,Aloo Gobi,"Potatoes, Cauliflower, Tomatoes, Green Chilies, Ginger, Garlic, Cumin, Turmeric, Garam Masala",Veg,Curry
+50,Baingan Bharta,"Roasted Eggplant, Tomatoes, Onion, Green Chilies, Garlic, Mustard Oil, Coriander, Cumin",Veg,Curry
+51,Sarson da Saag,"Mustard Greens, Spinach, Cornmeal, Ginger, Garlic, Green Chilies, Ghee, Spices",Veg,Main
+52,Palak Paneer,"Spinach, Paneer, Cream, Garlic, Tomatoes, Cashews, Cumin, Garam Masala",Veg,Curry
+53,Bhindi Masala,"Okra, Onions, Tomatoes, Garlic, Ginger, Coriander Powder, Mustard Seeds, Green Chilies",Veg,Curry
+54,Methi Thepla,"Fenugreek Leaves, Wheat Flour, Yogurt, Carom Seeds, Sesame Seeds, Green Chilies",Veg,Flatbread
+55,Cabbage Thoran,"Cabbage, Coconut, Mustard Seeds, Green Chilies, Curry Leaves, Urad Dal, Turmeric",Veg,Side Dish
+56,Gajar Halwa,"Carrots, Milk, Sugar, Ghee, Cardamom, Cashews, Almonds, Raisins",Veg,Dessert
+57,Tinda Masala,"Apple Gourd, Tomatoes, Onion, Ginger, Garlic, Cumin, Garam Masala",Veg,Curry
+58,Lauki Kofta,"Bottle Gourd, Gram Flour, Spices, Tomatoes, Cashews, Cream, Cardamom",Veg,Curry
+59,Pumpkin Sabzi,"Pumpkin, Jaggery, Green Chilies, Mustard Seeds, Hing, Curry Leaves",Veg,Side Dish
+60,Undhiyu,"Mixed Winter Vegetables, Green Garlic, Methi, Banana, Yam, Peas, Spices",Veg,Curry
+61,Chaulai Saag,"Amaranth Leaves, Garlic, Green Chilies, Mustard Oil, Cumin",Veg,Main
+62,Beetroot Poriyal,"Beetroot, Coconut, Mustard Seeds, Curry Leaves, Green Chilies",Veg,Side Dish
+63,Aloo Palak,"Potatoes, Spinach, Tomatoes, Garlic, Cumin, Hing, Kasuri Methi",Veg,Curry
+64,Karela Sabzi,"Bitter Gourd, Onions, Tomatoes, Jaggery, Mustard Seeds, Fennel",Veg,Side Dish
+65,Gongura Pachadi,"Gongura Leaves, Garlic, Red Chilies, Mustard Seeds, Tamarind",Veg,Pickle
+66,Arbi Masala,"Colocasia (Taro Root), Tomatoes, Spices, Amchur, Ajwain",Veg,Curry
+67,Banana Stem Curry,"Banana Stem, Coconut, Mustard Seeds, Spices, Turmeric, Moong Dal",Veg,Curry
+68,Paruppu Keerai,"Lentils, Greens (Spinach/Amaranth), Garlic, Tamarind, Dry Red Chilies",Veg,Dal
+69,Sprouted Moong Sabzi,"Sprouted Green Gram, Tomatoes, Hing, Mustard Seeds, Cumin",Veg,Side Dish
+70,Dondakaya Fry,"Ivy Gourd, Onions, Curry Leaves, Green Chilies, Spices",Veg,Side Dish
+71,Chana Saag,"Chickpeas, Spinach, Tomatoes, Garlic, Ginger, Whole Spices",Veg,Curry
+72,Aviyal,"Mixed Vegetables, Coconut, Yogurt, Curry Leaves, Coconut Oil",Veg,Curry
+73,Pudalangai Kootu,"Snake Gourd, Lentils, Coconut, Cumin, Curry Leaves, Mustard Seeds",Veg,Side Dish
+74,Mushroom Masala,"Mushrooms, Onions, Tomatoes, Garlic, Ginger, Cashews, Cumin, Garam Masala",Veg,Curry
+75,Mushroom Matar,"Mushrooms, Green Peas, Onion, Tomato, Cream, Spices",Veg,Curry
+76,Mushroom Korma,"Mushrooms, Cashew Paste, Yogurt, Cardamom, Cinnamon, Coconut, Spices",Veg,Curry
+77,Mushroom Biryani,"Mushrooms, Basmati Rice, Mint, Yogurt, Fried Onions, Whole Spices",Veg,Rice
+78,Chettinad Mushroom,"Mushrooms, Black Pepper, Curry Leaves, Coconut, Mustard Seeds",Veg,Curry
+79,Mushroom 65,"Mushrooms, Gram Flour, Corn Flour, Curd, Curry Leaves, Red Chili Powder",Veg,Appetizer
+80,Stuffed Mushrooms,"Mushrooms, Cheese, Garlic, Herbs, Bread Crumbs, Green Chilies",Veg,Appetizer
+81,Mushroom Tikka,"Mushrooms, Yogurt, Mustard Oil, Tandoori Masala, Kasuri Methi",Veg,Appetizer
+82,Mushroom Do Pyaza,"Mushrooms, Double Onion, Green Chilies, Cumin, Ghee, Coriander Powder",Veg,Curry
+83,Goan Mushroom Xacuti,"Mushrooms, Coconut, Poppy Seeds, Cloves, Tamarind, Green Chilies",Veg,Curry
+84,Mango Lassi,"Ripe Mango, Yogurt, Sugar, Cardamom, Saffron",Veg,Beverage
+85,Aamras,"Ripe Mango, Sugar, Cardamom",Veg,Dessert
+86,Banana Sheera (Banana Halwa),"Ripe Banana, Semolina, Ghee, Cardamom, Sugar",Veg,Dessert
+87,Pineapple Kesari,"Pineapple, Semolina, Ghee, Cashews, Saffron",Veg,Dessert
+88,Anar Raita (Pomegranate Raita),"Pomegranate, Yogurt, Cumin, Coriander",Veg,Side Dish
+89,Papaya Halwa,"Ripe Papaya, Ghee, Sugar, Cardamom, Dry Fruits",Veg,Dessert
+90,Apple Kheer,"Apple, Milk, Sugar, Cardamom, Nuts",Veg,Dessert
+91,Chikoo Milkshake,"Chikoo (Sapota), Milk, Sugar",Veg,Beverage
+92,Strawberry Shrikhand,"Strawberry, Hung Curd, Sugar, Saffron",Veg,Dessert
+93,Guava Chutney,"Guava, Green Chilies, Ginger, Cumin",Veg,Chutney
+94,Bael Sharbat,"Bael (Wood Apple), Jaggery, Cardamom",Veg,Beverage
+95,Jackfruit Biryani,"Raw Jackfruit, Basmati Rice, Yogurt, Whole Spices",Veg,Rice
+96,Kathal (Jackfruit) Curry,"Jackfruit, Tomatoes, Onions, Spices",Veg,Curry
+97,Jamun Juice,"Jamun (Black Plum), Lemon, Sugar",Veg,Beverage
+98,Fig Barfi (Anjeer Barfi),"Dried Figs, Nuts, Ghee, Cardamom",Veg,Dessert
+99,Grapes Pickle,"Green Grapes, Mustard, Red Chili Powder, Garlic",Veg,Pickle
+100,Amla Murabba,"Indian Gooseberry, Sugar Syrup, Saffron",Veg,Preserve
+101,Caramelized Pineapple,"Pineapple, Brown Sugar, Butter, Cinnamon",Veg,Dessert
+102,Coconut Ladoo,"Grated Coconut, Condensed Milk, Cardamom",Veg,Dessert
+103,Lychee Rabri,"Lychee, Milk, Saffron, Almonds",Veg,Dessert
+104,Watermelon Mint Juice,"Watermelon, Mint, Lemon, Honey",Veg,Beverage
+105,Musk Melon Sorbet,"Musk Melon, Sugar, Lemon",Veg,Dessert
+106,Pear and Apple Chutney,"Pear, Apple, Jaggery, Ginger",Veg,Chutney
+107,Orange Basundi,"Orange Segments, Milk, Condensed Milk, Cardamom",Veg,Dessert
+108,Jamun (Black Plum) Juice,"Jamun (Black Plum), Lemon, Sugar",Veg,Beverage
+109,Jamun Raita,"Jamun, Yogurt, Cumin, Black Salt",Veg,Side Dish
+110,Jamun Kulfi,"Jamun Pulp, Milk, Condensed Milk, Cardamom",Veg,Dessert
+111,Jamun Chutney,"Jamun, Tamarind, Jaggery, Red Chili Powder",Veg,Chutney
+112,Jamun Sorbet,"Jamun, Sugar, Lemon Juice, Mint",Veg,Dessert
+113,Amla (Indian Gooseberry) Murabba,"Amla, Sugar Syrup, Saffron",Veg,Preserve
+114,Amla Candy,"Dried Amla, Sugar, Black Salt",Veg,Snack
+115,Amla Pickle,"Amla, Mustard Seeds, Red Chili Powder, Oil",Veg,Pickle
+116,Amla Chutney,"Amla, Green Chili, Coriander, Cumin",Veg,Chutney
+117,Amla Juice,"Amla, Honey, Ginger",Veg,Beverage
+118,Raspberry Shrikhand,"Raspberries, Hung Curd, Sugar, Cardamom",Veg,Dessert
+119,Strawberry Lassi,"Strawberries, Yogurt, Sugar, Cardamom",Veg,Beverage
+120,Strawberry Sandesh,"Strawberries, Paneer, Sugar, Cardamom",Veg,Dessert
+121,Strawberry Kheer,"Strawberries, Milk, Rice, Sugar",Veg,Dessert
+122,Mulberry Barfi,"Mulberries, Khoya, Sugar, Ghee",Veg,Dessert
+123,Mulberry Ice Cream,"Mulberries, Cream, Sugar",Veg,Dessert
+124,Blueberry Halwa,"Blueberries, Semolina, Ghee, Sugar",Veg,Dessert
+125,Blueberry Ladoo,"Blueberries, Coconut, Condensed Milk",Veg,Dessert
+126,Blackberry Sharbat,"Blackberries, Sugar, Lemon, Mint",Veg,Beverage
+127,Blackberry Chutney,"Blackberries, Jaggery, Ginger, Red Chili",Veg,Chutney
+128,Goji Berry Tea,"Goji Berries, Hot Water, Honey",Veg,Beverage
+129,Goji Berry Kheer,"Goji Berries, Rice, Milk, Sugar",Veg,Dessert
+130,Cranberry Pickle,"Cranberries, Mustard Seeds, Red Chili Powder, Oil",Veg,Pickle
+131,Cranberry Chutney,"Cranberries, Tamarind, Jaggery, Ginger",Veg,Chutney
+132,Kaju Katli,"Cashews, Sugar, Cardamom, Ghee",Veg,Dessert
+133,Badam Halwa,"Almonds, Milk, Sugar, Saffron, Ghee",Veg,Dessert
+134,Pista Kulfi,"Pistachios, Milk, Condensed Milk, Cardamom",Veg,Dessert
+135,Peanut Chikki,"Peanuts, Jaggery, Cardamom",Veg,Sweet Snack
+136,Sesame Tilgul,"Sesame Seeds, Jaggery, Cardamom",Veg,Sweet Snack
+137,Til Ke Ladoo,"Sesame Seeds, Jaggery, Ghee",Veg,Dessert
+138,Gond Ke Ladoo,"Edible Gum, Nuts (Almonds, Cashews), Jaggery, Ghee",Veg,Dessert
+139,Dry Fruit Barfi,"Mixed Nuts (Almonds, Cashews, Walnuts), Dates, Ghee",Veg,Dessert
+140,Panchmel Dal,"Lentils, Peanuts, Mustard Seeds, Cumin, Hing",Veg,Main
+141,Peanut Sundal,"Peanuts, Mustard Seeds, Coconut, Curry Leaves",Veg,Snack
+142,Badam Milk,"Almonds, Milk, Saffron, Cardamom, Sugar",Veg,Beverage
+143,Khus Khus Kheer,"Poppy Seeds, Milk, Sugar, Cardamom",Veg,Dessert
+144,Char Magaz Halwa,"Melon Seeds, Almonds, Cashews, Sugar, Ghee",Veg,Dessert
+145,Foxnut (Makhana) Kheer,"Makhana, Milk, Sugar, Cardamom",Veg,Dessert
+146,Makhana Namkeen,"Makhana, Peanuts, Curry Leaves, Rock Salt",Veg,Snack
+147,Peanut Butter Chapati Rolls,"Peanuts, Honey, Wheat Flour, Ghee",Veg,Breakfast
+148,Pumpkin Seed Chutney,"Pumpkin Seeds, Garlic, Tamarind, Red Chili",Veg,Chutney
+149,Chia Seed Pudding,"Chia Seeds, Almond Milk, Honey, Fruits",Veg,Dessert
+150,Flaxseed Chutney Powder,"Flaxseeds, Red Chili, Garlic, Jaggery",Veg,Chutney
+151,Sunflower Seed Ladoo,"Sunflower Seeds, Dates, Coconut",Veg,Dessert
+152,Walnut Halwa,"Walnuts, Sugar, Ghee, Cardamom",Veg,Dessert
+153,Cashew Pulao,"Cashews, Basmati Rice, Saffron, Spices",Veg,Rice
+154,Almond and Dates Smoothie,"Almonds, Dates, Milk, Honey",Veg,Beverage
+155,Pistachio Rabri,"Pistachios, Milk, Sugar, Saffron",Veg,Dessert
+156,Paneer Butter Masala,"Paneer, Butter, Tomatoes, Cashews, Spices",Veg,Curry
+157,Shahi Paneer,"Paneer, Cream, Cashews, Tomatoes, Spices",Veg,Curry
+158,Palak Paneer,"Paneer, Spinach, Garlic, Ginger, Spices",Veg,Curry
+159,Kadhai Paneer,"Paneer, Bell Peppers, Tomatoes, Spices",Veg,Curry
+160,Paneer Tikka,"Paneer, Yogurt, Spices, Bell Peppers, Onions",Veg,Appetizer
+161,Chilli Paneer,"Paneer, Soy Sauce, Bell Peppers, Garlic, Chilies",Veg,Appetizer
+162,Matar Paneer,"Paneer, Green Peas, Tomatoes, Spices",Veg,Curry
+163,Paneer Bhurji,"Crumbled Paneer, Onions, Tomatoes, Spices",Veg,Breakfast
+164,Paneer Pakora,"Paneer, Chickpea Flour, Spices, Oil",Veg,Snack
+165,Paneer Paratha,"Paneer, Whole Wheat Flour, Spices",Veg,Breakfast
+166,Paneer Kofta,"Paneer, Potatoes, Cashews, Spices, Cream",Veg,Curry
+167,Paneer Pulao,"Paneer, Basmati Rice, Whole Spices",Veg,Rice
+168,Cheese Garlic Naan,"Cheese, All-Purpose Flour, Garlic, Butter",Veg,Bread
+169,Cheese Dosa,"Dosa Batter, Cheese, Butter, Spices",Veg,Breakfast
+170,Paneer Dosa,"Dosa Batter, Paneer, Spices, Onion",Veg,Breakfast
+171,Paneer Cutlet,"Paneer, Potatoes, Bread Crumbs, Spices",Veg,Snack
+172,Cheese Pakora,"Cheese Cubes, Chickpea Flour, Spices, Oil",Veg,Snack
+173,Mozzarella Samosa,"Mozzarella Cheese, Flour, Spices",Veg,Snack
+174,Cheese Pav Bhaji,"Cheese, Mixed Vegetables, Pav Bread, Spices",Veg,Street Food
+175,Cheese Chilli Toast,"Cheese, Bread, Green Chilies, Butter",Veg,Snack
+176,Cheese Masala Maggi,"Cheese, Instant Noodles, Spices",Veg,Snack
+177,Stuffed Paneer Kulcha,"Paneer, Flour, Spices, Butter",Veg,Bread
+178,Cheesy Veg Frankie,"Cheese, Mixed Vegetables, Wrap",Veg,Street Food
+179,Cheese Uttapam,"Uttapam Batter, Cheese, Onion, Tomato",Veg,Breakfast
+180,Paneer Butter Masala,"Paneer, Butter, Cream, Tomatoes, Cashews, Spices",Veg,Curry
+181,Shahi Paneer,"Paneer, Cream, Cashews, Tomatoes, Spices",Veg,Curry
+182,Palak Paneer,"Paneer, Spinach, Garlic, Ginger, Spices",Veg,Curry
+183,Kadhai Paneer,"Paneer, Bell Peppers, Tomatoes, Spices",Veg,Curry
+184,Matar Paneer,"Paneer, Green Peas, Tomatoes, Spices",Veg,Curry
+185,Paneer Kofta,"Paneer, Potatoes, Cashews, Spices, Cream",Veg,Curry
+186,Cheese Pav Bhaji,"Cheese, Butter, Mixed Vegetables, Pav Bread, Spices",Veg,Street Food
+187,Rasmalai,"Chhena (cottage cheese), Milk, Cardamom, Saffron, Sugar",Veg,Dessert
+188,Rasgulla,"Chhena, Sugar Syrup, Cardamom",Veg,Dessert
+189,Gulab Jamun,"Khoya (milk solids), Flour, Sugar Syrup",Veg,Dessert
+190,Basundi,"Full-Fat Milk, Sugar, Cardamom, Nuts",Veg,Dessert
+191,Rabri,"Milk, Sugar, Cardamom, Saffron, Nuts",Veg,Dessert
+192,Mishti Doi,"Yogurt, Jaggery, Cardamom",Veg,Dessert
+193,Lassi,"Yogurt, Sugar, Cardamom, Rose Water",Veg,Beverage
+194,Chaas (Buttermilk),"Yogurt, Water, Cumin, Curry Leaves",Veg,Beverage
+195,Masala Doodh,"Milk, Nuts, Cardamom, Saffron",Veg,Beverage
+196,Egg Curry,"Eggs, Tomatoes, Onion, Spices",Non-Veg,Curry
+197,Egg Bhurji,"Eggs, Onion, Green Chilies, Spices",Non-Veg,Breakfast
+198,Egg Biryani,"Eggs, Basmati Rice, Whole Spices",Non-Veg,Rice
+199,Egg Paratha,"Eggs, Whole Wheat Flour, Spices",Non-Veg,Breakfast
+200,Cheese Omelette,"Eggs, Cheese, Onion, Butter",Non-Veg,Breakfast
+201,Egg Fried Rice,"Eggs, Rice, Soy Sauce, Green Onion",Non-Veg,Rice
+202,Egg Keema,"Boiled Eggs, Onion, Tomatoes, Spices",Non-Veg,Curry
+203,Egg Manchurian,"Boiled Eggs, Soy Sauce, Chilies, Corn Flour",Non-Veg,Appetizer
+204,Soya Chaap Masala,"Soya chaap, Onion, Tomato, Spices, Cashews",Veg,Curry
+205,Vegan Butter Chicken,"Jackfruit, Coconut Milk, Tomato, Cashews, Spices",Vegan,Curry
+206,Mushroom Masala,"Mushrooms, Onion, Tomato, Coconut Milk, Spices",Vegan,Curry
+207,Baingan Bharta,"Roasted Eggplant, Onion, Tomato, Spices",Vegan,Curry
+208,Soya Keema Matar,"Soya Granules, Green Peas, Tomatoes, Spices",Vegan,Curry
+209,Vegan Kofta Curry,"Bottle Gourd, Gram Flour, Coconut Cream, Spices",Vegan,Curry
+210,Vegan Dal Makhani,"Black Lentils, Red Kidney Beans, Coconut Milk, Spices",Vegan,Curry
+211,Chickpea Tikka Masala,"Chickpeas, Tomato Gravy, Coconut Cream, Spices",Vegan,Curry
+212,Tofu Bhurji,"Tofu, Onion, Tomatoes, Turmeric, Green Chilies",Vegan,Breakfast
+213,Jackfruit Biryani,"Jackfruit, Basmati Rice, Whole Spices",Vegan,Rice
+214,Soya Biryani,"Soya Chunks, Basmati Rice, Fried Onions, Spices",Vegan,Rice
+215,Mushroom Pulao,"Mushrooms, Basmati Rice, Whole Spices",Vegan,Rice
+216,Vegan Pav Bhaji,"Mixed Vegetables, Vegan Butter, Pav Bread, Spices",Vegan,Street Food
+217,Vegan Dhokla,"Gram Flour, Fruit Salt, Lemon Juice",Vegan,Snack
+218,Soya Kebab,"Soya Granules, Gram Flour, Spices",Vegan,Appetizer
+219,Chickpea Cutlets,"Chickpeas, Bread Crumbs, Onion, Spices",Vegan,Appetizer
+220,Banana Blossom Cutlet,"Banana Blossom, Gram Flour, Spices",Vegan,Appetizer
+221,Vegan Malai Kofta,"Tofu, Potatoes, Cashews, Coconut Cream",Vegan,Curry
+222,Jackfruit Tikka,"Jackfruit, Yogurt Substitute, Tandoori Spices",Vegan,Appetizer
+223,Tofu Tikka,"Tofu, Vegan Yogurt, Spices",Vegan,Appetizer
+224,Soya Seekh Kebab,"Soya Granules, Gram Flour, Spices",Vegan,Appetizer
+225,Vegan Rajma Masala,"Red Kidney Beans, Tomatoes, Spices",Vegan,Curry
+226,Vegan Kadhi Pakora,"Gram Flour, Coconut Yogurt, Mustard Seeds",Vegan,Curry
+227,Vegan Kheer,"Rice, Almond Milk, Jaggery, Cardamom",Vegan,Dessert
+228,Coconut Ladoo,"Grated Coconut, Jaggery, Cardamom",Vegan,Dessert
+229,Chicken Biryani,"Chicken, Basmati Rice, Whole Spices (Cinnamon, Cloves, Cardamom), Yogurt, Saffron, Ghee, Fried Onions, Mint, Coriander, Green Chilies, Ginger-Garlic Paste",Non-Veg,Rice
+230,Mutton Biryani,"Mutton, Basmati Rice, Saffron, Yogurt, Whole Spices, Bay Leaf, Mint, Fried Onions, Cashews, Ghee, Green Chilies, Lemon Juice",Non-Veg,Rice
+231,Chicken Tikka,"Chicken, Yogurt, Red Chili Powder, Garam Masala, Ginger-Garlic Paste, Lemon Juice, Kasuri Methi, Mustard Oil, Black Salt, Butter",Non-Veg,Appetizer
+232,Tandoori Chicken,"Chicken, Hung Curd, Kashmiri Chili Powder, Black Pepper, Roasted Cumin, Mustard Oil, Lemon Juice, Butter, Chaat Masala",Non-Veg,Appetizer
+233,Mutton Rogan Josh,"Mutton, Kashmiri Red Chili, Yogurt, Fennel Powder, Cinnamon, Cardamom, Ginger Powder, Cloves, Mustard Oil",Non-Veg,Curry
+234,Butter Chicken,"Chicken, Tomatoes, Cashew Paste, Cream, Butter, Garam Masala, Sugar, Kasuri Methi, Ginger-Garlic Paste, Honey",Non-Veg,Curry
+235,Chicken Korma,"Chicken, Cashew Paste, Yogurt, Nutmeg, Mace, Saffron, Fried Onions, Almonds, Cloves, Cinnamon, Bay Leaf",Non-Veg,Curry
+236,Mutton Korma,"Mutton, Cashews, Poppy Seeds, Fried Onions, Yogurt, Bay Leaf, Cardamom, Cloves, Ginger-Garlic Paste, Nutmeg, Ghee",Non-Veg,Curry
+237,Keema Matar,"Minced Mutton, Green Peas, Onion, Tomato, Ginger-Garlic Paste, Garam Masala, Green Chilies, Bay Leaf, Cloves",Non-Veg,Curry
+238,Chicken Chettinad,"Chicken, Coconut, Black Pepper, Fennel Seeds, Curry Leaves, Tamarind, Cloves, Cardamom, Star Anise",Non-Veg,Curry
+239,Hyderabadi Haleem,"Mutton, Wheat, Lentils (Chana, Moong, Masoor), Ghee, Garam Masala, Fried Onions, Ginger, Green Chilies, Cashews",Non-Veg,Main
+240,Mughlai Paratha,"Minced Meat, Egg, Flour, Green Chilies, Coriander, Cumin, Black Pepper, Onions",Non-Veg,Bread
+241,Laal Maas,"Mutton, Kashmiri Chili, Garlic Paste, Mustard Oil, Cloves, Black Pepper, Yogurt, Bay Leaf",Non-Veg,Curry
+242,Bhuna Gosht,"Mutton, Tomatoes, Onion, Ginger-Garlic Paste, Spices (Garam Masala, Cloves, Cardamom, Cinnamon), Coriander Leaves",Non-Veg,Curry
+243,Paya Soup,"Goat Trotters, Ginger, Garlic, Turmeric, Cloves, Cardamom, Cinnamon, Black Pepper, Curry Leaves, Ghee",Non-Veg,Soup
+244,Chicken 65,"Boneless Chicken, Corn Flour, Curry Leaves, Ginger-Garlic Paste, Kashmiri Chili, Black Pepper, Vinegar",Non-Veg,Appetizer
+245,Mutton Fry,"Mutton, Curry Leaves, Black Pepper, Garlic, Coriander, Dry Red Chilies, Mustard Seeds",Non-Veg,Appetizer
+246,Egg Curry,"Boiled Eggs, Onion-Tomato Gravy, Spices (Coriander Powder, Turmeric, Red Chili Powder), Curry Leaves",Non-Veg,Curry
+247,Egg Bhurji,"Eggs, Onion, Tomato, Green Chilies, Butter, Black Pepper, Coriander Leaves, Garam Masala",Non-Veg,Breakfast
+248,Goan Prawn Curry,"Prawns, Coconut Milk, Kokum, Mustard Seeds, Curry Leaves, Turmeric, Green Chilies",Non-Veg,Curry
+249,Fish Curry,"Fish, Tamarind, Coconut, Mustard Seeds, Fenugreek, Dry Red Chilies, Garlic, Turmeric",Non-Veg,Curry
+250,Malabar Fish Curry,"Kingfish, Coconut, Tamarind, Curry Leaves, Mustard Seeds, Dry Red Chilies, Green Chilies",Non-Veg,Curry
+251,Prawns Masala,"Prawns, Onion, Tomato, Mustard Seeds, Green Chilies, Coconut, Garam Masala, Lemon Juice",Non-Veg,Curry
+252,Tandoori Fish,"Fish Fillets, Yogurt, Tandoori Masala, Lemon Juice, Garlic, Red Chili Powder, Black Salt, Butter",Non-Veg,Appetizer
+253,Mutton Sukka,"Dry Spiced Mutton, Coconut, Curry Leaves, Green Chilies, Black Pepper, Cloves, Mustard Seeds",Non-Veg,Curry
+254,Chicken Biryani,"Chicken, Basmati Rice, Whole Spices (Cinnamon, Cloves, Cardamom, Star Anise, Bay Leaf), Yogurt, Saffron, Ghee, Fried Onions, Mint, Coriander, Green Chilies, Ginger-Garlic Paste, Lemon Juice",Non-Veg,Rice
+255,Hyderabadi Chicken Biryani,"Chicken, Basmati Rice, Kewra Water, Saffron, Fried Onions, Ghee, Whole Spices, Yogurt, Mint, Coriander, Green Chilies",Non-Veg,Rice
+256,Butter Chicken (Murgh Makhani),"Chicken, Tomatoes, Cashew Paste, Cream, Butter, Garam Masala, Honey, Kasuri Methi, Ginger-Garlic Paste, Kashmiri Chili Powder",Non-Veg,Curry
+257,Chicken Tikka Masala,"Boneless Chicken, Yogurt, Tomato Puree, Cream, Butter, Garam Masala, Green Chilies, Kasuri Methi, Roasted Cumin",Non-Veg,Curry
+258,Tandoori Chicken,"Chicken, Hung Curd, Kashmiri Chili Powder, Black Pepper, Roasted Cumin, Mustard Oil, Lemon Juice, Butter, Chaat Masala",Non-Veg,Appetizer
+259,Chicken 65,"Boneless Chicken, Corn Flour, Curry Leaves, Ginger-Garlic Paste, Kashmiri Chili, Black Pepper, Vinegar, Curd, Green Chilies, Egg",Non-Veg,Appetizer
+260,Chicken Korma,"Chicken, Cashew Paste, Yogurt, Nutmeg, Mace, Saffron, Fried Onions, Almonds, Cloves, Cinnamon, Bay Leaf, Ghee",Non-Veg,Curry
+261,Chicken Chettinad,"Chicken, Coconut, Black Pepper, Fennel Seeds, Curry Leaves, Tamarind, Cloves, Cardamom, Star Anise, Red Chilies, Poppy Seeds",Non-Veg,Curry
+262,Chicken Do Pyaza,"Chicken, Onion (Double Quantity), Yogurt, Ginger-Garlic Paste, Cloves, Cinnamon, Green Chilies, Mustard Oil, Cardamom, Cumin Seeds",Non-Veg,Curry
+263,Kolkata Chicken Biryani,"Chicken, Basmati Rice, Potatoes, Ghee, Kewra Water, Saffron, Yogurt, Whole Spices, Fried Onions",Non-Veg,Rice
+264,Malvani Chicken Curry,"Chicken, Malvani Masala, Coconut, Poppy Seeds, Tamarind, Cloves, Black Pepper, Curry Leaves, Mustard Seeds",Non-Veg,Curry
+265,Chicken Sukka,"Chicken, Coconut, Curry Leaves, Dry Red Chilies, Black Pepper, Cumin, Mustard Seeds, Garlic, Ginger",Non-Veg,Curry
+266,Chicken Bhuna,"Chicken, Onion, Tomato, Ginger-Garlic Paste, Garam Masala, Cloves, Cardamom, Kasuri Methi, Red Chilies",Non-Veg,Curry
+267,Chicken Rezala,"Chicken, Yogurt, Cashew Paste, Poppy Seeds, Nutmeg, Mace, Ghee, Whole Spices, Green Chilies, White Pepper",Non-Veg,Curry
+268,Chicken Changezi,"Chicken, Tomatoes, Cashew Paste, Butter, Yogurt, Garam Masala, Red Chili Powder, Kasuri Methi, Fried Onions, Cream",Non-Veg,Curry
+269,Chicken Nihari,"Chicken, Bone Marrow, Garam Masala, Star Anise, Saffron, Cinnamon, Black Pepper, Yogurt, Nutmeg, Mace, Ghee",Non-Veg,Main
+270,Chicken Ghee Roast,"Chicken, Ghee, Byadagi Chilies, Tamarind, Curry Leaves, Mustard Seeds, Cloves, Cinnamon, Garlic, Ginger",Non-Veg,Curry
+271,Chicken Stew (Kerala Style),"Chicken, Coconut Milk, Curry Leaves, Green Chilies, Cloves, Cardamom, Bay Leaf, Mustard Seeds, Cinnamon",Non-Veg,Soup
+272,Dahi Chicken,"Chicken, Yogurt, Roasted Cumin, Ginger-Garlic Paste, Garam Masala, Red Chili Powder, Green Chilies, Ghee",Non-Veg,Curry
+273,Chicken Lollipop,"Chicken Wings, Corn Flour, Soy Sauce, Vinegar, Kashmiri Chili Powder, Garlic, Ginger, Black Pepper, Green Chilies",Non-Veg,Appetizer
+274,Murg Mussalam,"Whole Chicken, Cashew Paste, Poppy Seeds, Yogurt, Nutmeg, Mace, Cloves, Cinnamon, Cardamom, Bay Leaf, Ghee, Fried Onions",Non-Veg,Main
+275,Chicken Shorba,"Chicken, Tomato, Onion, Cinnamon, Black Pepper, Cardamom, Cloves, Bay Leaf, Ginger, Garlic, Butter",Non-Veg,Soup
+276,Chicken Manchurian,"Boneless Chicken, Corn Flour, Soy Sauce, Vinegar, Ginger-Garlic Paste, Green Chilies, Spring Onions, Tomato Sauce",Non-Veg,Indo-Chinese
+277,Chicken Masala,"Chicken, Onion, Tomato, Ginger-Garlic Paste, Kashmiri Chili Powder, Garam Masala, Kasuri Methi, Green Chilies, Ghee",Non-Veg,Curry
+278,Chicken Frankie,"Chicken, Roti, Green Chilies, Egg, Garlic, Cumin, Chat Masala, Cheese, Onions, Lemon Juice",Non-Veg,Wrap
+279,Bengali Fish Curry (Machher Jhol),"Rohu Fish, Potatoes, Mustard Oil, Tomatoes, Green Chilies, Panch Phoron, Turmeric, Cumin, Red Chili Powder, Coriander Powder, Bay Leaf, Mustard Seeds",Non-Veg,Curry
+280,Goan Fish Curry,"Kingfish/Pomfret, Coconut, Tamarind, Red Chilies, Garlic, Ginger, Coriander Seeds, Mustard Seeds, Turmeric, Curry Leaves",Non-Veg,Curry
+281,Malabar Fish Curry,"Seer Fish, Coconut, Tamarind, Curry Leaves, Mustard Seeds, Dry Red Chilies, Green Chilies, Turmeric, Fenugreek Seeds",Non-Veg,Curry
+282,Meen Kuzhambu (Tamil Nadu Fish Curry),"Kingfish, Tamarind, Shallots, Garlic, Curry Leaves, Mustard Seeds, Fenugreek, Dry Red Chilies, Black Pepper, Green Chilies, Turmeric, Coconut Oil",Non-Veg,Curry
+283,Chettinad Fish Fry,"Pomfret, Curry Leaves, Black Pepper, Dry Red Chilies, Fennel Seeds, Turmeric, Tamarind, Garlic, Ginger",Non-Veg,Appetizer
+284,Tandoori Fish Tikka,"Boneless Fish, Yogurt, Kashmiri Chili Powder, Black Pepper, Roasted Cumin, Mustard Oil, Lemon Juice, Butter, Chaat Masala",Non-Veg,Appetizer
+285,Fish Koliwada (Mumbai Style),"Surmai Fish, Gram Flour, Ginger-Garlic Paste, Kashmiri Chili Powder, Green Chilies, Lemon Juice, Chat Masala",Non-Veg,Appetizer
+286,Karimeen Pollichathu (Kerala),"Pearl Spot Fish, Banana Leaf, Shallots, Coconut Milk, Curry Leaves, Mustard Seeds, Green Chilies, Black Pepper",Non-Veg,Main
+287,Pomfret Recheado (Goan Stuffed Fish),"Pomfret, Red Chilies, Tamarind, Vinegar, Garlic, Ginger, Coriander, Cumin, Black Pepper, Coconut Oil",Non-Veg,Main
+288,Amritsari Fish Fry,"Fish Fillets, Gram Flour, Carom Seeds, Red Chili Powder, Ginger-Garlic Paste, Chaat Masala, Vinegar, Mustard Oil",Non-Veg,Appetizer
+289,Bommidayila Pulusu (Andhra Fish Stew),"Anchovies, Tamarind, Curry Leaves, Mustard Seeds, Dry Red Chilies, Green Chilies, Black Pepper, Coriander Seeds",Non-Veg,Curry
+290,Doi Maach (Bengali Yogurt Fish Curry),"Rohu Fish, Yogurt, Mustard Oil, Green Chilies, Bay Leaves, Garam Masala, Black Pepper, Ginger-Garlic Paste",Non-Veg,Curry
+291,Fish Moilee (Kerala Coconut Fish Curry),"Seer Fish, Coconut Milk, Green Chilies, Curry Leaves, Black Pepper, Cardamom, Cloves, Cinnamon, Turmeric",Non-Veg,Curry
+292,Bangda Fry (Mackerel Fry – Maharashtra),"Mackerel, Rice Flour, Red Chili Powder, Turmeric, Garlic, Ginger, Lemon Juice, Mustard Oil",Non-Veg,Appetizer
+293,Macher Kalia (Rich Bengali Fish Curry),"Rohu Fish, Cashew Paste, Yogurt, Bay Leaf, Garam Masala, Tomato Puree, Green Chilies, Black Cardamom, Ghee",Non-Veg,Curry
+294,Patrani Machhi (Parsi Fish Steamed in Banana Leaf),"Pomfret, Coriander Paste, Green Chilies, Lemon Juice, Garlic, Ginger, Coconut, Mustard Seeds",Non-Veg,Main
+295,Bhetki Paturi (Bengali Mustard Fish in Banana Leaf),"Bhetki Fish, Mustard Paste, Mustard Oil, Poppy Seeds, Green Chilies, Banana Leaf, Turmeric",Non-Veg,Main
+296,Fish Gassi (Mangalorean Style),"Kingfish, Coconut, Tamarind, Byadagi Chilies, Curry Leaves, Mustard Seeds, Garlic, Ginger, Turmeric",Non-Veg,Curry
+297,Fish Biryani,"Seer Fish, Basmati Rice, Whole Spices (Cloves, Cardamom, Bay Leaf), Yogurt, Saffron, Ghee, Fried Onions, Green Chilies",Non-Veg,Rice
+298,Bihari Fish Curry,"Rohu Fish, Mustard Paste, Poppy Seeds, Green Chilies, Turmeric, Mustard Oil, Garlic, Ginger",Non-Veg,Curry
+299,Fish Cutlet,"Fish Fillets, Boiled Potatoes, Bread Crumbs, Black Pepper, Green Chilies, Coriander, Garam Masala, Egg",Non-Veg,Appetizer
+300,Kolhapuri Fish Curry,"Surmai, Coconut, Black Pepper, Byadagi Chilies, Curry Leaves, Garlic, Ginger, Tamarind",Non-Veg,Curry
+301,Nadan Fish Fry (Kerala Style),"Pearl Spot Fish, Turmeric, Kashmiri Chili Powder, Black Pepper, Curry Leaves, Garlic, Ginger",Non-Veg,Appetizer
+302,Goan Prawn Balchao,"Prawns, Vinegar, Dry Red Chilies, Mustard Seeds, Green Chilies, Tamarind, Black Pepper, Garlic",Non-Veg,Curry
+303,Goan Prawn Curry,"Prawns, Coconut Milk, Tamarind, Mustard Seeds, Green Chilies, Curry Leaves, Turmeric, Coriander Powder, Garlic, Ginger",Non-Veg,Curry
+304,Mangalorean Prawn Sukka,"Prawns, Grated Coconut, Byadagi Chilies, Curry Leaves, Black Pepper, Mustard Seeds, Garlic, Ginger",Non-Veg,Main
+305,Chettinad Prawn Masala,"Prawns, Curry Leaves, Black Pepper, Dry Red Chilies, Fennel Seeds, Coconut, Mustard Seeds, Tamarind",Non-Veg,Curry
+306,Kerala Prawn Moilee,"Prawns, Coconut Milk, Green Chilies, Curry Leaves, Black Pepper, Cardamom, Cloves, Cinnamon, Turmeric",Non-Veg,Curry
+307,Prawn Balchao (Goan Pickled Prawns),"Prawns, Vinegar, Dry Red Chilies, Mustard Seeds, Tamarind, Garlic, Ginger, Black Pepper",Non-Veg,Curry
+308,Kolambi Bhaat (Maharashtrian Prawn Rice),"Prawns, Basmati Rice, Whole Spices (Bay Leaf, Cloves, Cardamom), Saffron, Ghee, Green Chilies",Non-Veg,Rice
+309,Prawn Malai Curry (Bengali),"Prawns, Coconut Milk, Mustard Paste, Green Chilies, Mustard Oil, Bay Leaves, Garam Masala",Non-Veg,Curry
+310,Squid Roast (Kerala Style),"Squid, Coconut Oil, Curry Leaves, Shallots, Black Pepper, Turmeric, Mustard Seeds, Green Chilies",Non-Veg,Main
+311,Squid Masala Fry,"Squid, Black Pepper, Garlic, Ginger, Turmeric, Lemon Juice, Red Chili Powder, Curry Leaves",Non-Veg,Appetizer
+312,Crab Xec Xec (Goan Crab Curry),"Mud Crab, Coconut, Tamarind, Mustard Seeds, Byadagi Chilies, Coriander, Garlic, Black Pepper",Non-Veg,Curry
+313,Nandu Rasam (Tamil Nadu Crab Soup),"Crab, Black Pepper, Curry Leaves, Garlic, Tamarind, Tomato, Turmeric, Coriander Seeds",Non-Veg,Soup
+314,Crab Masala Fry (Mangalore Style),"Crab, Byadagi Chilies, Black Pepper, Garlic, Ginger, Mustard Seeds, Turmeric, Coconut",Non-Veg,Appetizer
+315,Tisrya Masala (Maharashtrian Clam Curry),"Clams, Coconut, Byadagi Chilies, Mustard Seeds, Curry Leaves, Turmeric, Green Chilies",Non-Veg,Curry
+316,Rava Fried Prawns,"Prawns, Semolina, Black Pepper, Turmeric, Kashmiri Chili Powder, Mustard Seeds, Garlic",Non-Veg,Appetizer
+317,Lobster Malai Curry (Bengali),"Lobster, Coconut Milk, Mustard Paste, Mustard Oil, Green Chilies, Garam Masala, Bay Leaves",Non-Veg,Curry
+318,Lobster Tandoori,"Lobster, Yogurt, Kashmiri Chili Powder, Roasted Cumin, Mustard Oil, Lemon Juice, Chaat Masala",Non-Veg,Appetizer
+319,Seaweed Soup (South Indian Style),"Dried Seaweed, Tamarind, Mustard Seeds, Black Pepper, Curry Leaves, Garlic, Green Chilies",Veg,Soup
+320,Prawn Biryani,"Prawns, Basmati Rice, Whole Spices (Cloves, Cardamom, Bay Leaf), Yogurt, Fried Onions, Ghee",Non-Veg,Rice
+321,Mussels Theeyal (Kerala Style),"Mussels, Coconut, Tamarind, Black Pepper, Dry Red Chilies, Mustard Seeds, Curry Leaves",Non-Veg,Curry
+322,Goan Mussels Stir Fry,"Mussels, Coconut, Byadagi Chilies, Black Pepper, Garlic, Turmeric, Coriander",Non-Veg,Main
+323,Oysters Masala Fry,"Oysters, Black Pepper, Curry Leaves, Garlic, Ginger, Mustard Seeds, Green Chilies, Turmeric",Non-Veg,Appetizer
+324,Karwari Prawn Curry (Coastal Karnataka),"Prawns, Coconut Milk, Tamarind, Mustard Seeds, Byadagi Chilies, Green Chilies, Garlic",Non-Veg,Curry
+325,Konju Varutharacha Curry (Fried Coconut Prawn Curry – Kerala),"Prawns, Fried Coconut, Curry Leaves, Mustard Seeds, Tamarind, Dry Red Chilies, Black Pepper",Non-Veg,Curry
+326,Stuffed Crab (Goan Style),"Crab Meat, Coconut, Garlic, Ginger, Black Pepper, Green Chilies, Turmeric, Coriander",Non-Veg,Appetizer
+327,Paneer Tikka,"Paneer, Yogurt, Kashmiri Chili Powder, Turmeric, Cumin, Coriander, Black Pepper, Chaat Masala",Veg,Appetizer
+328,Tandoori Chicken,"Chicken, Yogurt, Kashmiri Chili Powder, Garam Masala, Roasted Cumin, Black Pepper, Lemon Juice",Non-Veg,Appetizer
+329,Hyderabadi Biryani,"Basmati Rice, Whole Spices (Cardamom, Cloves, Bay Leaf, Star Anise), Saffron, Mint, Coriander, Ghee",Non-Veg,Rice
+330,Rogan Josh,"Mutton, Kashmiri Chili, Fennel Powder, Dry Ginger, Cloves, Cardamom, Black Pepper, Mustard Oil",Non-Veg,Curry
+331,Chettinad Chicken Curry,"Chicken, Black Pepper, Fennel Seeds, Cinnamon, Star Anise, Dry Red Chilies, Curry Leaves, Tamarind",Non-Veg,Curry
+332,Masala Dosa,"Rice Batter, Urad Dal, Mustard Seeds, Curry Leaves, Green Chilies, Turmeric, Black Pepper, Coriander",Veg,Main
+333,Chole Masala,"Chickpeas, Cumin, Coriander, Black Cardamom, Cinnamon, Bay Leaf, Anardana Powder, Dry Mango Powder",Veg,Curry
+334,Dal Tadka,"Toor Dal, Cumin, Mustard Seeds, Dry Red Chilies, Asafoetida, Garlic, Turmeric, Black Pepper",Veg,Curry
+335,Kadai Paneer,"Paneer, Bell Peppers, Kashmiri Chili Powder, Coriander Seeds, Cumin, Black Pepper, Bay Leaf",Veg,Curry
+336,Palak Paneer,"Spinach, Paneer, Cumin, Black Pepper, Garam Masala, Cloves, Green Chilies, Garlic",Veg,Curry
+337,Garam Masala Chai,"Black Tea, Cinnamon, Cloves, Green Cardamom, Black Pepper, Nutmeg, Ginger, Star Anise",Veg,Beverage
+338,Panch Phoron Aloo,"Potatoes, Panch Phoron (Fenugreek, Nigella, Cumin, Fennel, Mustard), Dry Red Chilies, Turmeric",Veg,Side Dish
+339,Rasam,"Tamarind, Black Pepper, Mustard Seeds, Curry Leaves, Garlic, Turmeric, Cumin, Dry Red Chilies",Veg,Soup
+340,Sambhar,"Toor Dal, Tamarind, Mustard Seeds, Curry Leaves, Asafoetida, Black Pepper, Coriander, Fenugreek",Veg,Curry
+341,Pesarattu,"Green Gram, Green Chilies, Ginger, Cumin, Coriander Leaves, Black Pepper, Curry Leaves",Veg,Main
+342,Methi Thepla,"Whole Wheat Flour, Fenugreek Leaves, Cumin, Coriander, Black Pepper, Ajwain, Turmeric, Sesame Seeds",Veg,Flatbread
+343,Mutton Pepper Fry,"Mutton, Black Pepper, Curry Leaves, Fennel Seeds, Green Chilies, Mustard Seeds, Dry Red Chilies",Non-Veg,Main
+344,Baingan Bharta,"Roasted Eggplant, Mustard Seeds, Dry Red Chilies, Green Chilies, Cumin, Coriander, Garlic",Veg,Curry
+345,Hing Jeera Aloo,"Potatoes, Asafoetida, Cumin, Black Pepper, Dry Mango Powder, Turmeric, Green Chilies",Veg,Side Dish
+346,Pav Bhaji,"Potatoes, Tomatoes, Pav Bhaji Masala (Coriander, Cumin, Kashmiri Chili, Black Salt), Green Peas, Garlic",Veg,Main
+347,Bisi Bele Bath,"Rice, Toor Dal, Tamarind, Cloves, Cinnamon, Black Pepper, Mustard Seeds, Curry Leaves",Veg,Rice
+348,Shahi Paneer,"Paneer, Cardamom, Cloves, Nutmeg, Garam Masala, Saffron, Cashews, Black Pepper, Yogurt",Veg,Curry
+349,Lemon Rice,"Basmati Rice, Mustard Seeds, Dry Red Chilies, Curry Leaves, Asafoetida, Turmeric, Lemon Juice",Veg,Rice
+350,Panchmel Dal,"Five Lentils (Toor, Moong, Chana, Urad, Masoor), Cumin, Cloves, Dry Ginger, Mustard Seeds, Asafoetida",Veg,Curry
+351,Kasuri Methi Chicken,"Chicken, Dried Fenugreek Leaves, Cumin, Black Pepper, Garam Masala, Green Chilies, Mustard Oil",Non-Veg,Curry
+352,Gulab Jamun,"Khoya, Maida, Sugar, Cardamom, Rose Water, Saffron, Ghee",Veg,Dessert
+353,Jalebi,"Maida, Sugar, Yogurt, Saffron, Cardamom, Ghee",Veg,Dessert
+354,Rasgulla,"Paneer, Sugar, Cardamom, Rose Water",Veg,Dessert
+355,Rasmalai,"Paneer, Sugar, Saffron, Cardamom, Milk, Almonds, Pistachios",Veg,Dessert
+356,Kaju Katli,"Cashews, Sugar, Ghee, Cardamom",Veg,Sweet
+357,Besan Ladoo,"Gram Flour, Sugar, Ghee, Cardamom, Nuts",Veg,Sweet
+358,Mysore Pak,"Gram Flour, Sugar, Ghee",Veg,Sweet
+359,Peda,"Khoya, Sugar, Cardamom, Saffron",Veg,Sweet
+360,Sandesh,"Paneer, Sugar, Cardamom, Rose Water",Veg,Sweet
+361,Modak,"Rice Flour, Jaggery, Coconut, Cardamom",Veg,Sweet
+362,Malpua,"Maida, Sugar, Milk, Fennel Seeds, Saffron",Veg,Dessert
+363,Kesari Bath,"Semolina, Sugar, Ghee, Saffron, Cardamom",Veg,Dessert
+364,Payasam (Kheer),"Rice, Sugar, Milk, Cardamom, Saffron, Nuts",Veg,Dessert
+365,Shrikhand,"Hung Curd, Sugar, Saffron, Cardamom, Almonds",Veg,Dessert
+366,Puran Poli,"Wheat Flour, Jaggery, Chana Dal, Cardamom, Nutmeg",Veg,Sweet
+367,Gajar Ka Halwa,"Carrots, Sugar, Milk, Ghee, Cardamom, Nuts",Veg,Dessert
+368,Lapsi (Broken Wheat Halwa),"Broken Wheat, Sugar, Ghee, Cardamom, Nuts",Veg,Dessert
+369,Chhena Poda,"Cottage Cheese, Sugar, Cardamom, Cashews, Raisins",Veg,Dessert
+370,Balushahi,"Maida, Sugar, Ghee, Cardamom",Veg,Sweet
+371,Patishapta,"Rice Flour, Jaggery, Coconut, Milk, Cardamom",Veg,Dessert
+372,Unniyappam,"Rice Flour, Jaggery, Coconut, Banana, Cardamom, Sesame Seeds",Veg,Snack
+373,Sohan Halwa,"Wheat Flour, Sugar, Milk, Cardamom, Almonds, Pistachios",Veg,Sweet
+374,Tilgul Ladoo,"Sesame Seeds, Jaggery, Cardamom",Veg,Sweet
+375,Narikol Laru,"Coconut, Jaggery, Cardamom",Veg,Sweet
+376,Imarti,"Urad Dal, Sugar, Saffron, Ghee",Veg,Dessert
+377,Garam Masala Chicken Curry,"Chicken, Garam Masala, Onion, Tomato, Ginger-Garlic, Green Chilies, Yogurt",Non-Veg,Curry
+378,Paneer Tikka,"Paneer, Garam Masala, Red Chili Powder, Yogurt, Lemon, Kasuri Methi, Ginger-Garlic",Veg,Appetizer
+379,Masala Dosa,"Rice Batter, Urad Dal, Turmeric, Mustard Seeds, Curry Leaves, Hing, Green Chilies, Potatoes",Veg,Main
+380,Tandoori Chicken,"Chicken, Tandoori Masala, Yogurt, Red Chili Powder, Lemon, Garam Masala, Ginger-Garlic",Non-Veg,Main
+381,Pav Bhaji,"Potatoes, Tomatoes, Pav Bhaji Masala, Butter, Green Peas, Capsicum, Onions, Lemon",Veg,Main
+382,Chole Bhature,"Chickpeas, Chole Masala, Tomatoes, Onion, Ginger-Garlic, Bhature Flour",Veg,Main
+383,Rogan Josh,"Mutton, Kashmiri Chili Powder, Garam Masala, Ginger, Yogurt, Fennel Powder, Cloves",Non-Veg,Curry
+384,Dal Makhani,"Black Lentils, Butter, Cream, Garam Masala, Ginger, Tomatoes, Cumin, Garlic",Veg,Curry
+385,Rajma Masala,"Kidney Beans, Rajma Masala, Tomatoes, Ginger-Garlic, Garam Masala, Cumin",Veg,Curry
+386,Aloo Gobi,"Potatoes, Cauliflower, Turmeric, Cumin, Coriander Powder, Green Chilies, Mustard Seeds",Veg,Curry
+387,Baingan Bharta,"Roasted Eggplant, Mustard Oil, Green Chilies, Tomatoes, Coriander Powder, Cumin",Veg,Curry
+388,Chicken Biryani,"Basmati Rice, Chicken, Biryani Masala, Fried Onions, Cloves, Bay Leaves, Saffron",Non-Veg,Rice
+389,Hyderabadi Dum Biryani,"Basmati Rice, Mutton, Biryani Masala, Yogurt, Saffron, Fried Onions, Ghee",Non-Veg,Rice
+390,Pani Puri,"Semolina Puri, Tamarind, Pani Puri Masala, Black Salt, Cumin, Chaat Masala, Green Chilies",Veg,Snack
+391,Dabeli,"Pav Bread, Dabeli Masala, Potatoes, Tamarind, Peanuts, Pomegranate, Sev",Veg,Snack
+392,Kadhi Pakora,"Gram Flour, Yogurt, Turmeric, Curry Leaves, Mustard Seeds, Fenugreek Seeds, Red Chili",Veg,Curry
+393,Malai Kofta,"Paneer, Potatoes, Garam Masala, Cashews, Cream, Cardamom, Saffron",Veg,Curry
+394,Sarson Da Saag,"Mustard Leaves, Spinach, Makki Flour, Green Chilies, Ginger, Ghee",Veg,Main
+395,Achari Paneer,"Paneer, Mustard Seeds, Fennel, Nigella Seeds, Red Chilies, Garam Masala, Yogurt",Veg,Curry
+396,Spicy Kerala Fish Curry,"Fish, Kudampuli (Malabar Tamarind), Mustard Seeds, Curry Leaves, Coconut, Red Chili Powder",Non-Veg,Curry
+397,Goan Prawn Balchao,"Prawns, Vinegar, Mustard Seeds, Goan Masala, Tamarind, Curry Leaves",Non-Veg,Curry
+398,Chettinad Chicken Curry,"Chicken, Chettinad Masala, Star Anise, Peppercorns, Cloves, Curry Leaves, Tamarind",Non-Veg,Curry
+399,Vindaloo,"Pork or Lamb, Vindaloo Masala, Vinegar, Garlic, Red Chilies, Ginger, Mustard Seeds",Non-Veg,Curry
+400,Madras Curry,"Chicken or Vegetables, Madras Curry Powder, Coconut Milk, Tamarind, Cumin, Mustard Seeds",Non-Veg/Veg,Curry
+401,Nankhatai (Indian Shortbread Cookies),"Flour, Ghee, Sugar, Cardamom, Baking Powder, Semolina",Veg,Biscuits
+402,Eggless Atta Cake,"Whole Wheat Flour, Jaggery, Baking Soda, Baking Powder, Yogurt, Cardamom",Veg,Cakes
+403,Mawa Cake,"Flour, Mawa (Khoya), Milk, Sugar, Butter, Cardamom, Baking Powder",Veg,Cakes
+404,Jeera Biscuits,"Flour, Butter, Cumin Seeds, Baking Powder, Sugar, Milk",Veg,Biscuits
+405,Shrewsbury Biscuits,"Flour, Butter, Sugar, Baking Powder, Vanilla Essence",Veg,Biscuits
+406,Pineapple Pastry,"Flour, Butter, Sugar, Pineapple Essence, Whipped Cream, Baking Powder",Veg,Pastry
+407,Rasgulla Cheesecake,"Paneer, Sugar, Condensed Milk, Flour, Butter, Baking Powder",Veg,Cheesecake
+408,Semolina Cake (Rava Cake),"Semolina, Yogurt, Sugar, Baking Soda, Baking Powder, Cardamom",Veg,Cakes
+409,Eggless Chocolate Cake,"Flour, Cocoa Powder, Condensed Milk, Baking Powder, Sugar, Butter",Veg,Cakes
+410,Coconut Macaroons,"Desiccated Coconut, Condensed Milk, Sugar, Vanilla Essence, Baking Powder",Veg,Cookies
+411,Banana Walnut Bread,"Flour, Bananas, Walnuts, Sugar, Baking Powder, Eggs (optional), Butter",Veg,Bread
+412,Methi Khari Biscuits,"Flour, Butter, Methi (Fenugreek), Salt, Baking Powder",Veg,Biscuits
+413,Elaichi (Cardamom) Cookies,"Flour, Butter, Sugar, Cardamom Powder, Baking Powder",Veg,Cookies
+414,Bakarkhani,"Flour, Milk, Butter, Sugar, Cardamom, Yeast",Veg,Bread
+415,Garlic Naan (Baked Version),"Flour, Yeast, Yogurt, Garlic, Butter, Salt",Veg,Bread
+416,Stuffed Kulcha,"Flour, Yeast, Yogurt, Spiced Potato Stuffing, Butter",Veg,Bread
+417,Masala Breadsticks,"Flour, Butter, Cumin, Chili Flakes, Baking Powder",Veg,Bread
+418,Eggless Vanilla Cupcakes,"Flour, Butter, Sugar, Baking Powder, Vanilla Essence, Milk",Veg,Cakes
+419,Pista Biscuits (Pistachio Cookies),"Flour, Pistachios, Butter, Sugar, Baking Powder",Veg,Biscuits
+420,Savory Cheese Crackers,"Flour, Cheese, Butter, Chili Powder, Baking Powder",Veg,Crackers
+421,Rose and Almond Cake,"Flour, Almonds, Rose Essence, Sugar, Baking Powder, Butter",Veg,Cakes
+422,Kesar Pista Cake,"Flour, Saffron, Pistachios, Sugar, Baking Powder, Butter",Veg,Cakes
+423,Eggless Brownies,"Flour, Cocoa Powder, Baking Powder, Condensed Milk, Butter, Chocolate",Veg,Brownies
+424,Mango Mousse Cake,"Flour, Mango Puree, Whipped Cream, Baking Powder, Sugar",Veg,Cakes
+425,Multigrain Bread,"Whole Wheat Flour, Ragi, Oats, Yeast, Baking Powder, Salt",Veg,Bread
+426,Samosa,"Ready-Made Samosa Patti, Potatoes, Peas, Spices, Oil",Veg,Snacks
+427,Kachori,"Ready-Made Kachori Dough, Moong Dal, Spices, Oil",Veg,Snacks
+428,Spring Rolls (Indian Style),"Spring Roll Wrappers, Cabbage, Carrots, Noodles, Spices, Oil",Veg,Snacks
+429,Paneer Puff Pastry,"Puff Pastry Sheets, Paneer, Onions, Spices, Butter",Veg,Baked
+430,Chicken Puff,"Puff Pastry Sheets, Chicken, Spices, Butter",Non-Veg,Baked
+431,Khari Biscuits,"Ready-Made Puff Pastry, Butter, Cumin Seeds",Veg,Biscuits
+432,Mutton Patties,"Puff Pastry Sheets, Minced Mutton, Spices, Butter",Non-Veg,Baked
+433,Frankie Roll,"Ready-Made Roti or Paratha, Paneer/Chicken, Sauces, Spices",Veg/Non-Veg,Wraps
+434,Kathi Roll,"Ready-Made Paratha, Egg, Chicken/Paneer, Onions, Spices",Non-Veg/Veg,Wraps
+435,Laccha Paratha,"Frozen Paratha, Butter, Flour",Veg,Bread
+436,Rumali Roti,"Pre-Made Rumali Roti, Butter, Flour",Veg,Bread
+437,Bakarkhani Roti,"Pre-Made Bakarkhani Dough, Sugar, Cardamom",Veg,Bread
+438,Puran Poli,"Ready-Made Poli Dough, Chana Dal, Jaggery, Ghee",Veg,Desserts
+439,Naan (Frozen Dough),"Frozen Naan Dough, Butter, Garlic, Herbs",Veg,Bread
+440,Roti (Frozen Dough),"Frozen Roti Dough, Ghee, Flour",Veg,Bread
+441,Methi Thepla (Frozen),"Pre-Made Thepla Dough, Methi Leaves, Spices, Ghee",Veg,Bread
+442,Gujarati Fafda,"Ready-Made Fafda Dough, Gram Flour, Spices, Oil",Veg,Snacks
+443,Jalebi (Instant Dough),"Instant Jalebi Mix, Sugar Syrup, Cardamom, Ghee",Veg,Desserts
+444,Malabar Parotta (Frozen Dough),"Frozen Parotta Dough, Ghee, Flour",Veg,Bread
+445,Litti Chokha (Pre-Made Dough),"Ready Litti Dough, Sattu (Roasted Gram Flour), Spices",Veg,Main
+446,Chiroti,"Pre-Made Dough, Sugar Syrup, Cardamom, Ghee",Veg,Desserts
+447,Gujiya (Pre-Made Dough),"Gujiya Patti, Mawa, Sugar, Nuts, Spices",Veg,Desserts
+448,Puff Pastry Samosa,"Puff Pastry Sheets, Potato Filling, Spices, Butter",Veg,Snacks
+449,Chakli (Instant Dough),"Chakli Mix, Cumin, Spices, Oil",Veg,Snacks
+450,Modak (Ready Dough),"Ready Modak Dough, Coconut, Jaggery, Cardamom",Veg,Desserts
+451,Khichdi,"Rice, Moong Dal, Turmeric, Ghee, Cumin, Ginger, Green Chilies, Curry Leaves, Asafoetida, Salt, Water",Veg,Main
+452,Pulao,"Basmati Rice, Carrots, Beans, Peas, Potatoes, Whole Spices (Bay Leaf, Cloves, Cinnamon, Cardamom), Ghee",Veg,Rice
+453,Biryani,"Basmati Rice, Chicken/Mutton/Vegetables, Yogurt, Onions, Ginger-Garlic Paste, Mint, Saffron, Whole Spices",Non-Veg/Veg,Rice
+454,Masala Dosa,"Rice, Urad Dal, Potato, Mustard Seeds, Curry Leaves, Turmeric, Green Chilies, Coconut Chutney, Sambar",Veg,Breakfast
+455,Idli,"Rice, Urad Dal, Fenugreek Seeds, Water, Salt, Coconut Chutney, Sambar",Veg,Breakfast
+456,Appam,"Rice Flour, Coconut Milk, Yeast, Sugar, Salt, Water",Veg,Breakfast
+457,Poha,"Flattened Rice, Peanuts, Mustard Seeds, Curry Leaves, Turmeric, Onions, Green Chilies, Lemon Juice",Veg,Breakfast
+458,Sabudana Khichdi,"Sago (Sabudana), Peanuts, Potatoes, Green Chilies, Cumin, Curry Leaves, Lemon Juice, Rock Salt, Ghee",Veg,Breakfast
+459,Bisi Bele Bath,"Rice, Toor Dal, Tamarind, Bisi Bele Bath Masala, Curry Leaves, Mustard Seeds, Ghee, Vegetables",Veg,Main
+460,Curd Rice,"Rice, Curd, Mustard Seeds, Curry Leaves, Green Chilies, Coriander Leaves, Ginger, Salt, Pomegranate Seeds",Veg,Rice
+461,Chakuli Pitha,"Rice, Urad Dal, Coconut, Jaggery, Cardamom Powder, Salt",Veg,Snacks
+462,Pongal,"Rice, Moong Dal, Black Pepper, Cashews, Cumin, Ghee, Curry Leaves, Ginger",Veg,Breakfast
+463,Dal Baati Churma,"Whole Wheat Flour, Ghee, Toor Dal, Chana Dal, Jaggery, Cardamom Powder, Spices",Veg,Main
+464,Roti/Chapati,"Whole Wheat Flour, Water, Ghee, Salt",Veg,Bread
+465,Bajra Roti,"Pearl Millet Flour, Water, Ghee, Salt",Veg,Bread
+466,Makki Ki Roti,"Maize Flour, Water, Ghee, Salt, Ajwain",Veg,Bread
+467,Jowar Bhakri,"Sorghum Flour, Water, Ghee, Salt",Veg,Bread
+468,Dhokla,"Gram Flour, Rice Flour, Yogurt, Eno, Green Chilies, Curry Leaves, Mustard Seeds, Sugar, Lemon Juice",Veg,Snacks
+469,Thepla,"Whole Wheat Flour, Methi Leaves, Yogurt, Green Chilies, Cumin, Turmeric, Oil",Veg,Bread
+470,Sevai Kheer,"Vermicelli, Milk, Sugar, Cardamom, Cashews, Raisins, Saffron, Ghee",Veg,Dessert
+471,Puffed Rice Chaat,"Puffed Rice, Peanuts, Onions, Tomatoes, Green Chilies, Sev, Chaat Masala, Lemon Juice",Veg,Snacks
+472,Murukku,"Rice Flour, Urad Dal Flour, Cumin, Sesame Seeds, Butter, Hing, Salt",Veg,Snacks
+473,Upma,"Semolina, Mustard Seeds, Curry Leaves, Green Chilies, Vegetables (Carrots, Peas, Beans), Ghee",Veg,Breakfast
+474,Rava Kesari,"Semolina, Sugar, Cardamom, Ghee, Cashews, Raisins, Saffron",Veg,Dessert
+475,Dal Tadka,"Toor Dal, Onion, Tomato, Garlic, Green Chilies, Cumin, Mustard Seeds, Ghee, Turmeric, Red Chili Powder",Veg,Curry
+476,Dal Makhani,"Black Urad Dal, Kidney Beans, Butter, Cream, Ginger-Garlic Paste, Tomato Puree, Whole Spices",Veg,Curry
+477,Chana Masala,"Chickpeas, Onion, Tomato, Garlic, Ginger, Green Chilies, Chana Masala Powder, Cumin, Coriander",Veg,Curry
+478,Rajma Masala,"Red Kidney Beans, Onion, Tomato, Garlic, Ginger, Spices, Cumin, Ghee",Veg,Curry
+479,Kala Chana Curry,"Black Chickpeas, Onion, Tomato, Ginger, Garlic, Cumin, Spices, Coconut Milk (optional)",Veg,Curry
+480,Pindi Chole,"White Chickpeas, Onion, Tomato, Ginger, Garlic, Spices, Black Tea (for color), Dried Amla",Veg,Curry
+481,Misal Pav,"Sprouted Moth Beans, Onions, Tomatoes, Goda Masala, Red Chili Powder, Farsan, Pav Bread",Veg,Snack
+482,Moong Dal Chilla,"Yellow Moong Dal, Green Chilies, Coriander, Cumin, Salt, Water, Oil",Veg,Breakfast
+483,Dal Fry,"Toor Dal, Onion, Tomato, Green Chilies, Garlic, Ginger, Mustard Seeds, Ghee, Cumin",Veg,Curry
+484,Lobia Curry,"Black Eyed Peas, Tomato, Onion, Ginger, Garlic, Spices, Cumin, Coriander",Veg,Curry
+485,Sprouted Moong Salad,"Sprouted Green Gram, Onion, Tomato, Lemon Juice, Green Chilies, Salt, Coriander",Veg,Salad
+486,Pakora Kadhi,"Besan (Gram Flour), Yogurt, Curry Leaves, Mustard Seeds, Green Chilies, Fried Pakoras",Veg,Curry
+487,Chole Bhature,"Chickpeas, Onion, Tomato, Spices, Bhature (Fermented Flour Dough, Oil)",Veg,Main
+488,Sundal,"Chickpeas, Mustard Seeds, Curry Leaves, Green Chilies, Grated Coconut, Lemon Juice",Veg,Snack
+489,Besan Chilla,"Gram Flour, Green Chilies, Cumin, Coriander, Onion, Salt, Water",Veg,Breakfast
+490,Mysore Bonda,"Urad Dal, Green Chilies, Curry Leaves, Rice Flour, Cumin, Yogurt, Salt",Veg,Snack
+491,Adai Dosa,"Mixed Lentils (Toor Dal, Chana Dal, Moong Dal, Urad Dal), Red Chilies, Curry Leaves, Rice Flour",Veg,Breakfast
+492,Dal Baati Churma,"Toor Dal, Chana Dal, Whole Wheat Flour, Ghee, Spices, Jaggery, Cardamom Powder",Veg,Main
+493,Usal,"Mixed Sprouted Lentils, Onion, Tomato, Goda Masala, Red Chili Powder, Mustard Seeds",Veg,Curry
+494,Chana Sundal,"Boiled Black Chickpeas, Mustard Seeds, Curry Leaves, Grated Coconut, Lemon Juice",Veg,Snack
+495,Moong Dal Halwa,"Yellow Moong Dal, Ghee, Sugar, Cardamom, Milk, Almonds, Cashews",Veg,Dessert
+496,Dal Paratha,"Whole Wheat Flour, Cooked Dal, Green Chilies, Coriander, Cumin, Butter",Veg,Bread
+497,Khaman Dhokla,"Besan (Gram Flour), Yogurt, Eno, Mustard Seeds, Green Chilies, Curry Leaves, Lemon Juice",Veg,Snack
+498,Sattu Paratha,"Sattu Flour, Onion, Green Chilies, Garlic, Mustard Oil, Whole Wheat Flour",Veg,Bread
+499,Masala Macaroni,"Macaroni, Onion, Tomato, Capsicum, Garlic, Green Chilies, Garam Masala, Turmeric, Butter",Veg,Pasta
+500,Tandoori Pasta,"Penne, Tandoori Masala, Yogurt, Ginger-Garlic Paste, Capsicum, Onion, Cream",Veg,Pasta
+501,Paneer Makhani Pasta,"Penne, Paneer, Butter, Tomato Puree, Cream, Kasuri Methi, Red Chili Powder",Veg,Pasta
+502,Spicy Desi Pasta,"Fusilli, Onion, Tomato, Green Chilies, Black Pepper, Coriander, Garam Masala",Veg,Pasta
+503,Palak Paneer Pasta,"Spaghetti, Spinach Puree, Paneer, Garlic, Cream, Butter, Black Pepper",Veg,Pasta
+504,Chili Garlic Pasta,"Penne, Red Chili Flakes, Garlic, Butter, Tomato Puree, Coriander",Veg,Pasta
+505,Schezwan Pasta,"Penne, Schezwan Sauce, Onion, Capsicum, Garlic, Soy Sauce, Vinegar",Veg,Pasta
+506,Coconut Curry Pasta,"Spaghetti, Coconut Milk, Curry Leaves, Mustard Seeds, Green Chilies, Turmeric",Veg,Pasta
+507,Pav Bhaji Pasta,"Macaroni, Pav Bhaji Masala, Potatoes, Peas, Tomato, Onion, Butter",Veg,Pasta
+508,Street Style Pasta,"Fusilli, Tomato Sauce, Mayonnaise, Green Chilies, Black Pepper, Coriander",Veg,Pasta
+509,Mughlai Pasta,"Farfalle, Almond Paste, Cream, Saffron, Cardamom, Paneer, Butter",Veg,Pasta
+510,Chettinad Pasta,"Penne, Chettinad Masala, Coconut, Curry Leaves, Mustard Seeds",Veg,Pasta
+511,Butter Chicken Pasta,"Penne, Chicken, Butter, Tomato Puree, Cream, Kasuri Methi, Garam Masala",Non-Veg,Pasta
+512,Egg Masala Pasta,"Macaroni, Boiled Eggs, Onion, Tomato, Spices, Garlic, Black Pepper",Non-Veg,Pasta
+513,Malai Kofta Pasta,"Spaghetti, Malai Kofta (Paneer Balls), Cashew Paste, Butter, Cream",Veg,Pasta
+514,Keema Pasta,"Fusilli, Minced Mutton, Onion, Tomato, Garam Masala, Black Pepper, Green Chilies",Non-Veg,Pasta
+515,Desi Alfredo Pasta,"Fettuccine, Cream, Garlic, Green Chilies, Coriander, Black Pepper",Veg,Pasta
+516,Hyderabadi Biryani Pasta,"Macaroni, Biryani Masala, Saffron, Yogurt, Fried Onions, Green Chilies",Non-Veg,Pasta
+517,Gujarati Sev Pasta,"Macaroni, Sev, Mustard Seeds, Green Chilies, Lemon Juice, Coriander",Veg,Pasta
+518,Pesto Paneer Pasta,"Spaghetti, Basil, Paneer, Garlic, Cashews, Olive Oil, Parmesan",Veg,Pasta
+519,Spicy Mushroom Pasta,"Penne, Mushrooms, Red Chili Flakes, Garlic, Black Pepper, Cream",Veg,Pasta
+520,Tomato & Curry Leaf Pasta,"Farfalle, Tomato, Curry Leaves, Mustard Seeds, Green Chilies, Butter",Veg,Pasta
+521,Achari Pasta,"Penne, Pickle Masala, Mustard Seeds, Onion, Tomato, Green Chilies",Veg,Pasta
+522,Dal Makhani Pasta,"Fusilli, Dal Makhani Sauce, Butter, Cream, Garlic, Black Pepper",Veg,Pasta
+523,Pav Bhaji,"Pav (bread rolls), Butter, Potatoes, Peas, Tomato, Onion, Capsicum, Pav Bhaji Masala",Veg,Bread
+524,Puri,"Whole Wheat Flour, Water, Salt, Oil",Veg,Bread
+525,Bhatura,"All-Purpose Flour, Yogurt, Baking Soda, Salt, Oil",Veg,Bread
+526,Tandoori Roti,"Whole Wheat Flour, Yogurt, Baking Powder, Ghee, Salt",Veg,Bread
+527,Kulcha,"All-Purpose Flour, Yogurt, Baking Powder, Nigella Seeds, Butter",Veg,Bread
+528,Lachha Paratha,"Whole Wheat Flour, Ghee, Salt, Water",Veg,Bread
+529,Thepla,"Whole Wheat Flour, Fenugreek Leaves, Yogurt, Green Chilies, Spices",Veg,Bread
+530,Missi Roti,"Besan (Gram Flour), Whole Wheat Flour, Ajwain, Green Chilies, Coriander",Veg,Bread
+531,Khakhra,"Whole Wheat Flour, Fenugreek Leaves, Sesame Seeds, Salt, Oil",Veg,Bread
+532,Naan,"All-Purpose Flour, Yogurt, Baking Powder, Milk, Butter",Veg,Bread
+533,Mathri,"All-Purpose Flour, Carom Seeds, Ghee, Salt, Water",Veg,Salty Snack
+534,Chakli (Murukku),"Rice Flour, Urad Dal Flour, Sesame Seeds, Cumin, Butter",Veg,Salty Snack
+535,Banana Chips,"Raw Banana, Turmeric, Salt, Coconut Oil",Veg,Salty Snack
+536,Kurkure Bhindi,"Ladyfinger, Gram Flour, Rice Flour, Red Chili, Chaat Masala, Oil",Veg,Salty Snack
+537,Masala Peanuts,"Peanuts, Gram Flour, Red Chili Powder, Black Salt, Oil",Veg,Salty Snack
+538,Aloo Bhujia,"Potato, Gram Flour, Asafoetida, Black Salt, Chat Masala",Veg,Salty Snack
+539,Bhel Puri,"Puffed Rice, Sev, Onion, Tomato, Green Chutney, Tamarind Chutney, Peanuts",Veg,Salty Snack
+540,Chivda (Poha Mix),"Flattened Rice, Peanuts, Curry Leaves, Mustard Seeds, Green Chilies",Veg,Salty Snack
+541,Sev Murmura,"Puffed Rice, Sev, Peanuts, Chaat Masala, Green Chilies, Curry Leaves",Veg,Salty Snack
+542,Samosa,"All-Purpose Flour, Potatoes, Peas, Garam Masala, Green Chilies, Oil",Veg,Salty Snack
+543,Kachori,"All-Purpose Flour, Moong Dal, Asafoetida, Garam Masala, Oil",Veg,Salty Snack
+544,Farsi Puri,"All-Purpose Flour, Black Pepper, Ajwain, Ghee, Salt",Veg,Salty Snack
+545,Pattice (Cutlet),"Boiled Potatoes, Bread Crumbs, Green Chilies, Coriander, Spices, Oil",Veg,Salty Snack
+546,Bhakarwadi,"Gram Flour, Tamarind Paste, Sesame Seeds, Fennel Seeds, Red Chili, Oil",Veg,Salty Snack
+547,Dal Tadka,"Ghee, toor dal, garlic, cumin, mustard seeds, dried red chilies, onions, tomatoes",Veg,Main
+548,Baingan Bharta,"Mustard oil, eggplant, garlic, onions, tomatoes, green chilies, coriander leaves",Veg,Main
+549,Kerala Avial,"Coconut oil, mixed vegetables, coconut, green chilies, yogurt, curry leaves",Veg,Curry
+550,Aloo Paratha,"Ghee, whole wheat flour, potatoes, green chilies, coriander, garam masala",Veg,Bread
+551,Punjabi Sarson da Saag,"Mustard oil, mustard greens, spinach, maize flour, green chilies, ginger, garlic",Veg,Curry
+552,Hyderabadi Biryani,"Ghee, basmati rice, chicken/mutton, yogurt, saffron, whole spices, fried onions",Non-Veg,Rice
+553,Pesarattu,"Sesame oil, green gram dal, green chilies, ginger, cumin, onions",Veg,Breakfast
+554,Rajasthani Dal Baati Churma,"Ghee, whole wheat flour, chana dal, urad dal, jaggery, spices",Veg,Main
+555,Litti Chokha,"Mustard oil, whole wheat flour, sattu (roasted gram flour), brinjal, tomatoes, garlic",Veg,Main
+556,Poori Bhaji,"Ghee/oil, wheat flour, potatoes, curry leaves, mustard seeds, green chilies",Veg,Breakfast
+557,Mysore Pak,"Ghee, besan (gram flour), sugar",Veg,Dessert
+558,Gajar Ka Halwa,"Ghee, carrots, sugar, milk, cardamom, dry fruits",Veg,Dessert
+559,Kashmiri Rogan Josh,"Mustard oil, mutton, yogurt, Kashmiri red chili, fennel seeds, ginger powder",Non-Veg,Curry
+560,Bhature,"Ghee/oil, maida (refined flour), yogurt, sugar, baking soda",Veg,Bread
+561,Pakora (Assorted Fritters),"Mustard oil, besan (gram flour), onions/potatoes/spinach, spices",Veg,Snack
+562,Bengali Shorshe Ilish,"Mustard oil, hilsa fish, mustard seeds, green chilies, turmeric",Non-Veg,Curry
+563,Nei Payasam,"Ghee, rice, jaggery, coconut, cardamom",Veg,Dessert
+564,Kesari Bath,"Ghee, semolina, sugar, saffron, cardamom, dry fruits",Veg,Dessert
+565,Radhaballabhi,"Mustard oil, maida (refined flour), urad dal stuffing, ginger, fennel seeds",Veg,Bread
+566,Butter Chicken,"Butter/ghee, chicken, tomatoes, cashew paste, cream, garam masala",Non-Veg,Curry
+567,Dum Aloo,"Mustard oil, baby potatoes, tomatoes, yogurt, kasuri methi",Veg,Curry
+568,Appam with Stew,"Coconut oil, rice flour, coconut milk, yeast, vegetables/chicken",Veg/Non-Veg,Breakfast
+569,Mutton Korma,"Ghee, mutton, onions, yogurt, poppy seeds, garam masala",Non-Veg,Curry
+570,Banana Chips,"Coconut oil, raw bananas, salt, turmeric",Veg,Snack
+571,Pani Puri,"Tamarind chutney, mint water, vinegar, black salt, cumin, potatoes, chickpeas",Veg,Snack
+572,Dahi Puri,"Yogurt, tamarind chutney, green chutney, vinegar, sev, boiled potatoes, chickpeas",Veg,Snack
+573,Bhel Puri,"Tamarind chutney, green chutney, vinegar, puffed rice, sev, onions, tomatoes",Veg,Snack
+574,Dahi Vada,"Yogurt, tamarind chutney, green chutney, cumin powder, black salt, urad dal vadas",Veg,Snack
+575,Aloo Chaat,"Tamarind chutney, green chutney, vinegar, boiled potatoes, black salt, cumin",Veg,Snack
+576,Sev Puri,"Tamarind chutney, green chutney, vinegar, sev, potatoes, onions, tomatoes",Veg,Snack
+577,Raj Kachori,"Tamarind chutney, green chutney, yogurt, vinegar, sev, boiled potatoes, chickpeas",Veg,Snack
+578,Chana Chaat,"Vinegar, tamarind chutney, green chutney, black salt, boiled chickpeas, onions, tomatoes",Veg,Snack
+579,Sprouts Salad,"Vinegar, lemon juice, mixed sprouts, cucumbers, tomatoes, onions, coriander",Veg,Salad
+580,Pav Bhaji,"Vinegar, butter, mashed vegetables, pav bread, onions, tomatoes, capsicum",Veg,Main
+581,Mango Chutney,"Vinegar, raw mangoes, sugar, red chili powder, mustard seeds, garlic",Veg,Condiment
+582,Tomato Chutney,"Vinegar, tomatoes, garlic, mustard seeds, red chilies, jaggery",Veg,Condiment
+583,Coconut Chutney,"Vinegar, coconut, green chilies, tamarind, mustard seeds, curry leaves",Veg,Condiment
+584,Mint Chutney,"Vinegar, mint leaves, coriander, green chilies, lemon juice",Veg,Condiment
+585,Imli (Tamarind) Chutney,"Vinegar, tamarind, jaggery, cumin, black salt, red chili powder",Veg,Condiment
+586,Pickled Mango (Aam Ka Achar),"Vinegar, raw mangoes, mustard seeds, mustard oil, red chili powder",Veg,Pickle
+587,Pickled Lime (Nimbu Ka Achar),"Vinegar, lemons, salt, mustard seeds, red chili powder, turmeric",Veg,Pickle
+588,Achari Paneer Tikka,"Vinegar, paneer, mustard seeds, yogurt, pickling spices, red chili powder",Veg,Appetizer
+589,Pickled Onion (Sirke Wale Pyaaz),"Vinegar, small onions, salt, black salt, red chili powder, sugar",Veg,Pickle
+590,Chilli Vinegar Sauce,"Vinegar, green chilies, sugar, salt, garlic",Veg,Condiment
+591,Tandoori Chicken,"Vinegar, chicken, yogurt, red chili powder, ginger-garlic paste, garam masala",Non-Veg,Appetizer
+592,Mutton Achari,"Vinegar, mutton, pickling spices, yogurt, mustard seeds, red chili powder",Non-Veg,Curry
+593,Paniyaram,"Vinegar, urad dal, rice, green chilies, curry leaves, mustard seeds",Veg,Snack
+594,Chilli Paneer,"Vinegar, paneer, soy sauce, green chilies, capsicum, garlic",Veg,Appetizer
+595,Gobi Manchurian,"Vinegar, cauliflower, soy sauce, green chilies, garlic, spring onions",Veg,Appetizer
+596,Tamarind Chutney,"Tamarind, jaggery, sugar, cumin, black salt, red chili powder",Veg,Condiment
+597,Mint Chutney,"Mint leaves, coriander, green chilies, lemon juice, salt",Veg,Condiment
+598,Coconut Chutney,"Coconut, green chilies, tamarind, mustard seeds, curry leaves",Veg,Condiment
+599,Tomato Chutney,"Tomatoes, garlic, mustard seeds, red chilies, jaggery",Veg,Condiment
+600,Mango Chutney,"Raw mangoes, sugar, vinegar, red chili powder, mustard seeds, garlic",Veg,Condiment
+601,Garlic Chutney,"Garlic, red chilies, cumin, salt, oil",Veg,Condiment
+602,Peanut Chutney,"Peanuts, green chilies, tamarind, garlic, mustard seeds",Veg,Condiment
+603,Coriander Chutney,"Coriander leaves, green chilies, lemon juice, salt",Veg,Condiment
+604,Sesame Chutney,"Sesame seeds, red chilies, garlic, tamarind, jaggery",Veg,Condiment
+605,Ginger Chutney,"Ginger, tamarind, jaggery, mustard seeds, red chilies",Veg,Condiment
+606,Gooseberry (Amla) Chutney,"Amla, green chilies, mustard seeds, curry leaves",Veg,Condiment
+607,Flaxseed Chutney,"Flaxseeds, red chilies, cumin, garlic, tamarind",Veg,Condiment
+608,Coconut-Peanut Chutney,"Coconut, peanuts, green chilies, tamarind, mustard seeds",Veg,Condiment
+609,Kashmiri Walnut Chutney,"Walnuts, yogurt, green chilies, garlic, mint",Veg,Condiment
+610,Yogurt Raita,"Yogurt, cucumber, cumin, black salt, coriander",Veg,Condiment
+611,Boondi Raita,"Yogurt, boondi (fried chickpea flour balls), cumin, black salt",Veg,Condiment
+612,Pineapple Raita,"Yogurt, pineapple chunks, cumin, sugar",Veg,Condiment
+613,Beetroot Raita,"Yogurt, grated beetroot, cumin, black salt",Veg,Condiment
+614,Pudina Raita,"Yogurt, mint leaves, cumin, black salt",Veg,Condiment
+615,Mustard Kasundi,"Yellow mustard seeds, vinegar, turmeric, salt",Veg,Condiment
+616,Pickled Green Chilies,"Green chilies, mustard seeds, vinegar, salt",Veg,Condiment
+617,Pickled Garlic,"Garlic cloves, mustard seeds, vinegar, salt",Veg,Condiment
+618,Lemon Pickle,"Lemons, mustard seeds, red chili powder, salt",Veg,Condiment
+619,Ginger Pickle,"Ginger, tamarind, mustard seeds, red chili powder",Veg,Condiment
+620,Chickpea Curry (Chana Masala),"Canned chickpeas, tomatoes, onions, garlic, ginger, cumin, coriander, garam masala",Veg,Curry
+621,Rajma (Kidney Bean Curry),"Canned kidney beans, tomatoes, onions, garlic, ginger, cumin, coriander, garam masala",Veg,Curry
+622,Dal Tadka,"Canned lentils, tomatoes, onions, garlic, cumin, mustard seeds, curry leaves",Veg,Curry
+623,Pav Bhaji,"Canned mixed vegetables, potatoes, tomatoes, pav bhaji masala, butter",Veg,Main
+624,Palak Paneer with Canned Spinach,"Canned spinach, paneer, garlic, onions, tomatoes, garam masala, cream",Veg,Main
+625,Tomato Rasam,"Canned tomatoes, tamarind, garlic, mustard seeds, curry leaves, black pepper",Veg,Soup
+626,Baingan Bharta (Smoky Eggplant Curry),"Canned roasted eggplant, tomatoes, onions, garlic, cumin, coriander",Veg,Main
+627,Vegetable Biryani,"Canned peas, canned carrots, rice, onions, saffron, garam masala",Veg,Rice
+628,Matar Paneer,"Canned peas, paneer, tomatoes, onions, garlic, cumin, coriander",Veg,Curry
+629,Butter Chicken,"Canned tomatoes, chicken, cream, garlic, butter, garam masala",Non-Veg,Curry
+630,Chicken Curry,"Canned tomatoes, chicken, onions, garlic, ginger, curry powder",Non-Veg,Curry
+631,Fish Curry,"Canned fish, tomatoes, onions, garlic, mustard seeds, coconut milk",Non-Veg,Curry
+632,Sambar,"Canned toor dal, canned drumsticks, tamarind, mustard seeds, curry leaves",Veg,Soup
+633,Aloo Mutter,"Canned peas, potatoes, tomatoes, onions, garam masala",Veg,Curry
+634,Kadhi Pakora,"Canned chickpea flour, yogurt, mustard seeds, curry leaves",Veg,Curry
+635,Vegetable Stew,"Canned mixed vegetables, coconut milk, cinnamon, cardamom, curry leaves",Veg,Soup
+636,Paneer Butter Masala,"Canned tomatoes, paneer, cream, butter, garam masala",Veg,Curry
+637,Chole Bhature,"Canned chickpeas, tomatoes, onions, garlic, ginger, garam masala",Veg,Main
+638,Spinach Dal,"Canned lentils, canned spinach, garlic, mustard seeds, curry leaves",Veg,Curry
+639,Tomato Soup,"Canned tomatoes, garlic, black pepper, cream",Veg,Soup
+640,Mushroom Masala,"Canned mushrooms, tomatoes, onions, garlic, garam masala",Veg,Curry
+641,Dal Makhani,"Canned black lentils, canned kidney beans, cream, butter, garam masala",Veg,Curry
+642,Methi Malai Matar,"Canned fenugreek leaves, canned peas, cream, garam masala",Veg,Curry
+643,Egg Curry,"Canned tomatoes, boiled eggs, onions, garlic, ginger, garam masala",Non-Veg,Curry
+644,Curd Rice,"Rice, yogurt, mustard seeds, curry leaves, green chilies",Veg,Rice
