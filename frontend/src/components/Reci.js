@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import axios from 'axios';
 import './Reci.css';
 
@@ -46,7 +46,50 @@ function Reci() {
     'Biscuits',
   ];
 
-  const fetchRecommendations = useCallback(async (ingredients, filters) => {
+  const starterRecommendations = useMemo(() => ({
+    category: 'Starter Picks',
+    dishes: [
+      {
+        'Dish Name': 'Paneer Butter Masala',
+        Area: 'Indian',
+        Cuisine: 'North Indian',
+        'Meal Type': 'Main Meal',
+        Mood: 'Mild',
+        'Dish Type': 'Curry',
+        'Dietary Info': 'Veg',
+        Ingredients: 'Paneer, tomatoes, cream, butter, ginger-garlic paste, garam masala',
+        Instructions:
+          '1. Saute ginger-garlic paste in butter until aromatic.\n2. Cook tomatoes with spices until soft, then blend into a smooth gravy.\n3. Simmer the gravy with cream and garam masala.\n4. Add paneer cubes and cook gently until warmed through.\n5. Serve with naan, roti, or rice.',
+      },
+      {
+        'Dish Name': 'Masala Dosa',
+        Area: 'Indian',
+        Cuisine: 'South Indian',
+        'Meal Type': 'Breakfast',
+        Mood: 'Savory',
+        'Dish Type': 'Snack',
+        'Dietary Info': 'Veg',
+        Ingredients: 'Dosa batter, potatoes, onion, mustard seeds, curry leaves, green chilies',
+        Instructions:
+          '1. Prepare a potato masala with onion, mustard seeds, curry leaves, and chilies.\n2. Spread dosa batter thinly on a hot tawa.\n3. Cook until crisp and golden.\n4. Place the potato filling inside and fold.\n5. Serve with chutney and sambar.',
+      },
+      {
+        'Dish Name': 'Gulab Jamun',
+        Area: 'Indian',
+        Cuisine: 'Indian',
+        'Meal Type': 'Dessert',
+        Mood: 'Sweet',
+        'Dish Type': 'Dessert',
+        'Dietary Info': 'Veg',
+        Ingredients: 'Khoya or milk powder, flour, ghee, sugar, cardamom, rose water',
+        Instructions:
+          '1. Make a soft dough using khoya or milk powder with a little flour.\n2. Shape into smooth small balls.\n3. Fry on low heat until evenly golden.\n4. Simmer sugar, cardamom, and rose water into syrup.\n5. Soak the fried balls in warm syrup before serving.',
+      },
+    ],
+    source: 'frontend-starter',
+  }), []);
+
+  const fetchRecommendations = useCallback(async (ingredients, filters, options = {}) => {
     setLoading(true);
     setError(null);
 
@@ -57,11 +100,15 @@ function Reci() {
       });
       setResults(response.data);
     } catch (err) {
-      setError('Oops! Couldn’t fetch recipes. Try again.');
+      if (options.useStarterFallback) {
+        setResults(starterRecommendations);
+      } else {
+        setError('Oops! Couldn’t fetch recipes. Try again.');
+      }
     } finally {
       setLoading(false);
     }
-  }, []);
+  }, [starterRecommendations]);
 
   useEffect(() => {
     fetchRecommendations([], {
@@ -70,7 +117,7 @@ function Reci() {
       mealType: '',
       mood: '',
       dishType: '',
-    });
+    }, { useStarterFallback: true });
   }, [fetchRecommendations]);
 
   const handleSearch = async (event) => {
