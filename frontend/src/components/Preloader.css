@@ -2,6 +2,7 @@
   position: fixed;
   inset: 0;
   min-height: 100vh;
+  min-height: 100dvh;
   width: 100%;
   display: grid;
   place-items: center;
@@ -72,5 +73,33 @@
     height: 40px;
     padding: 6px 7px;
     gap: 3px;
+  }
+}
+
+@media (max-width: 380px) {
+  .preloader-content {
+    width: min(280px, calc(100vw - 32px));
+    transform: translateY(2vh);
+  }
+
+  .preloader-title {
+    margin-bottom: 22px;
+    font-size: clamp(4rem, 22vw, 5rem);
+  }
+
+  .preloader-bar {
+    height: 36px;
+    padding: 5px 6px;
+    border-width: 2px;
+    gap: 2px;
+  }
+
+  .preloader-block {
+    border-radius: 3px;
+  }
+
+  .preloader-progress {
+    margin-top: 12px;
+    font-size: 1.15rem;
   }
 }
