@@ -7,7 +7,7 @@ const BubbleText = () => {
       <h2 className={`${styles.bubbleWrapper} text-5xl font-thin`}>
         {"Recipe. Recommend. Eat".split("").map((char, index) => (
           <span key={index} className={styles.hoverText}>
-            {char === " " ? "\u00A0" : char}
+            {char}
           </span>
         ))}
       </h2>

@@ -1,3 +1,8 @@
+.box-container {
+  width: 100%;
+  overflow: hidden;
+}
+
 .Box {
   height: 500px;
   width: 1500px;
@@ -7,7 +12,7 @@
   justify-content: center;
   align-items: center;
   gap: 200px;
-  margin-top: 120px;
+  margin-top: 92px;
   margin-bottom: 10px;
 }
 
@@ -20,7 +25,7 @@
   justify-content: center;
   align-items: center;
   gap: 200px;
-  margin-top: 120px;
+  margin-top: 92px;
 }
 
 .box1, .box2, .box3 {
@@ -51,6 +56,7 @@
   height: 400px;
   position: relative;
   flex: 0 0 auto;
+  overflow: visible;
 }
 
 .gif-image {
@@ -63,13 +69,13 @@
 
 .three-overlay {
   position: absolute;
-  top: -40px;        /* floats above the GIF */
+  top: -40px;
   left: 50%;
   transform: translateX(-50%);
-  height: 700px;     /* adjust size as needed */
+  height: 700px;
   width: 600px;
   z-index: 6;
-  pointer-events: none;  /* allow clicks to pass through */
+  pointer-events: none;
 }
 
 .model-label {
@@ -83,6 +89,190 @@
   letter-spacing: 0;
   line-height: 1;
   position: relative;
-  z-index: 10; /* make sure it's above everything */
+  z-index: 10;
 
+}
+
+@media (min-width: 701px) and (max-width: 1199px) {
+  .Box,
+  .Box1 {
+    height: 460px;
+    width: 100%;
+    max-width: 1080px;
+    gap: clamp(44px, 8vw, 110px);
+    margin-top: 76px;
+    padding-inline: 24px;
+    box-sizing: border-box;
+  }
+
+  .box1,
+  .box2,
+  .box3,
+  .box4,
+  .box5,
+  .box6 {
+    left: 0;
+    height: 430px;
+    width: 240px;
+    flex: 0 0 240px;
+  }
+
+  .food-card {
+    width: 240px;
+    min-width: 240px;
+    height: 340px;
+  }
+
+  .three-overlay {
+    top: -34px;
+    width: 510px;
+    height: 600px;
+  }
+
+  .model-label {
+    font-size: 1.75rem;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1799px) {
+  .Box,
+  .Box1 {
+    width: 1190px;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: center;
+    justify-items: center;
+    column-gap: 200px;
+    margin-top: 78px;
+  }
+
+  .box1,
+  .box2,
+  .box3,
+  .box4,
+  .box5,
+  .box6 {
+    left: 0;
+    width: 300px;
+  }
+
+  .food-card {
+    width: 300px;
+  }
+}
+
+@media (max-width: 700px) {
+  .box-container {
+    margin-top: 0;
+  }
+
+  .Box,
+  .Box1 {
+    flex-direction: row;
+    height: auto;
+    min-height: 0;
+    width: 100%;
+    gap: 14px;
+    justify-content: center;
+    margin-top: 14px;
+    padding-inline: 18px;
+    padding-bottom: 12px;
+    box-sizing: border-box;
+  }
+
+  .box1,
+  .box2,
+  .box3,
+  .box4,
+  .box5,
+  .box6 {
+    left: 0;
+    width: clamp(92px, 28vw, 180px);
+    height: auto;
+    min-height: 0;
+  }
+
+  .food-card {
+    width: 100%;
+    height: clamp(132px, 42vw, 250px);
+  }
+
+  .three-overlay {
+    top: 6%;
+    height: 112%;
+    width: 124%;
+  }
+
+  .box1 .three-overlay,
+  .box5 .three-overlay {
+    top: 0;
+    height: 122%;
+    width: 138%;
+  }
+
+  .box2 .three-overlay,
+  .box6 .three-overlay,
+  .box3 .three-overlay,
+  .box4 .three-overlay {
+    top: 8%;
+    height: 104%;
+    width: 116%;
+  }
+
+  .model-label {
+    margin-top: 10px;
+    font-size: clamp(0.82rem, 3.6vw, 1.05rem);
+  }
+}
+
+@media (max-width: 430px) {
+  .Box,
+  .Box1 {
+    margin-top: 12px;
+    gap: 10px;
+    padding-inline: 14px;
+    padding-bottom: 12px;
+  }
+
+  .box1,
+  .box2,
+  .box3,
+  .box4,
+  .box5,
+  .box6 {
+    width: clamp(86px, 26vw, 112px);
+    min-height: 0;
+  }
+
+  .food-card {
+    width: 100%;
+    height: clamp(126px, 40vw, 166px);
+  }
+
+  .three-overlay {
+    top: 8%;
+    height: 104%;
+    width: 116%;
+  }
+
+  .box1 .three-overlay,
+  .box5 .three-overlay {
+    top: 2%;
+    height: 112%;
+    width: 128%;
+  }
+
+  .box2 .three-overlay,
+  .box6 .three-overlay,
+  .box3 .three-overlay,
+  .box4 .three-overlay {
+    top: 10%;
+    height: 98%;
+    width: 108%;
+  }
+
+  .model-label {
+    margin-top: 8px;
+    font-size: 0.82rem;
+  }
 }

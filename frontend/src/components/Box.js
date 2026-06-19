@@ -94,15 +94,29 @@ const Box = () => {
   }}
   loop={true}
   speed={1200}
-  slidesPerView={1.11}  
+  slidesPerView={1}
   spaceBetween={10}
+  breakpoints={{
+    701: {
+      slidesPerView: 1.11,
+      spaceBetween: 10,
+    },
+    1600: {
+      slidesPerView: 1,
+      spaceBetween: 0,
+    },
+    1800: {
+      slidesPerView: 1.11,
+      spaceBetween: 10,
+    },
+  }}
   threshold={8}
   resistanceRatio={0.65}
   longSwipesRatio={0.45}
   touchRatio={1}
   followFinger={true}
   autoplay={{
-    delay: 4500, // 2 seconds
+    delay: 4500, 
     disableOnInteraction: false, // keeps autoplay running even if user interacts
   }}
   className="swiper-container"

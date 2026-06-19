@@ -1,14 +1,17 @@
 .bubbleWrapper {
   text-align: center;
-  font-size: 110px;
-  margin-top: -10px;
-  color: white; /* indigo-300 */
+  width: min(100%, 1180px);
+  margin: -10px auto 10px;
+  padding: 0 24px;
+  box-sizing: border-box;
+  font-size: clamp(3rem, 8vw, 6.875rem);
+  line-height: 1;
+  color: white;
   font-family: "BoxFont", system-ui;
   font-style: normal;
-  letter-spacing: 4px;
+  letter-spacing: 0;
   font-weight: 10;
-  margin-bottom: 10px;
-
+  overflow-wrap: anywhere;
 }
 
 .hoverText {
@@ -43,6 +46,22 @@
   src: url('/public/lcdsolid.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+}
+
+@media (max-width: 640px) {
+  .bubbleWrapper {
+    padding-inline: 16px;
+    margin-top: 8px;
+    margin-bottom: 42px;
+    font-size: clamp(1.9rem, 10vw, 3.2rem);
+    line-height: 1.08;
+  }
+}
+
+@media (max-width: 420px) {
+  .bubbleWrapper {
+    font-size: clamp(1.7rem, 9vw, 2.6rem);
+  }
 }
 
 @font-face {

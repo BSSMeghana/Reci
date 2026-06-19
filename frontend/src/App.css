@@ -14,3 +14,8 @@ body, html, #root {
   background-color: black;
   text-align: center;
 }
+
+.app-shell-loading {
+  height: 100vh;
+  overflow: hidden;
+}

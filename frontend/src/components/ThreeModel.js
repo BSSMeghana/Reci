@@ -2,6 +2,17 @@ import React, { useEffect, useRef } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, useGLTF } from "@react-three/drei";
 
+[
+  "/model6.glb",
+  "/model2.glb",
+  "/model3.glb",
+  "/model1.glb",
+  "/model61.glb",
+  "/model21.glb",
+].forEach((modelPath) => {
+  useGLTF.preload(modelPath);
+});
+
 function Model({ modelPath, scale, position }) {
   const modelRef = useRef();
   const { scene } = useGLTF(modelPath);

@@ -126,8 +126,8 @@
 
 .reci-results {
   display: grid;
-  gap: 14px;
-  margin-top: 22px;
+  gap: 12px;
+  margin-top: 20px;
 }
 
 .reci-category {
@@ -139,8 +139,8 @@
 
 .reci-card {
   display: grid;
-  gap: 16px;
-  padding: 14px;
+  gap: 12px;
+  padding: 12px;
   border: 1px solid #2a2a2a;
   border-radius: 8px;
   background-color: #101010;
@@ -152,7 +152,7 @@
 }
 
 .reci-card h3 {
-  margin: 2px 0 8px;
+  margin: 2px 0 6px;
   color: #f6f0df;
   font-size: 1.1rem;
 }
@@ -165,7 +165,7 @@
 }
 
 .reci-card p {
-  margin: 0 0 6px;
+  margin: 0 0 4px;
   color: #bdb6a8;
   line-height: 1.45;
 }
@@ -186,8 +186,8 @@
 }
 
 .reci-instructions p {
-  margin-top: 10px;
-  padding: 12px;
+  margin-top: 8px;
+  padding: 10px;
   border-radius: 6px;
   background-color: #171717;
   color: #cfc7b8;
@@ -205,7 +205,7 @@
 
 .reci-source-link {
   width: fit-content;
-  margin-top: 4px;
+  margin-top: 2px;
   color: #d8e4a4;
   font-weight: 700;
   text-decoration: none;
@@ -231,11 +231,81 @@
 
 @media (max-width: 560px) {
   .reci-container {
-    padding: 0 16px 40px;
+    margin-top: 28px;
+    padding: 0 14px 40px;
+  }
+
+  .reci-shell {
+    gap: 16px;
+  }
+
+  .reci-filter-panel {
+    padding: 14px;
+    border-radius: 7px;
+  }
+
+  .reci-panel-label {
+    margin-bottom: 12px;
+    font-size: 0.72rem;
+  }
+
+  .reci-filter-panel {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .reci-panel-label,
+  .reci-field:first-of-type {
+    grid-column: 1 / -1;
+  }
+
+  .reci-field {
+    gap: 6px;
+    margin-bottom: 0;
+    font-size: 0.78rem;
+  }
+
+  .reci-input,
+  .reci-select,
+  .reci-button {
+    min-height: 38px;
+    font-size: 0.9rem;
+  }
+
+  .reci-input {
+    padding-inline: 12px;
+  }
+
+  .reci-select {
+    padding: 0 32px 0 10px;
+    background-position:
+      calc(100% - 17px) 15px,
+      calc(100% - 11px) 15px;
+  }
+
+  .reci-search-row {
+    gap: 10px;
+    padding: 12px;
+  }
+
+  .reci-button {
+    padding: 0 16px;
+  }
+
+  .reci-results {
+    gap: 10px;
+    margin-top: 16px;
+  }
+
+  .reci-category {
+    font-size: 0.92rem;
   }
 
   .reci-card {
     grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
   }
 
   .reci-card h3,
@@ -248,6 +318,17 @@
   .reci-card-image {
     grid-row: auto;
     width: 100%;
-    height: 220px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 380px) {
+  .reci-filter-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .reci-panel-label,
+  .reci-field:first-of-type {
+    grid-column: auto;
   }
 }
