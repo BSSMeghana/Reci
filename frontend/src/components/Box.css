@@ -8,8 +8,10 @@
   width: 1500px;
   margin: 0 auto;
   background-color: black;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 280px);
   justify-content: center;
+  justify-items: center;
   align-items: center;
   gap: 200px;
   margin-top: 92px;
@@ -21,15 +23,17 @@
   width: 1500px;
   margin: 0 auto;
   background-color: black;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 280px);
   justify-content: center;
+  justify-items: center;
   align-items: center;
   gap: 200px;
   margin-top: 92px;
 }
 
 .box1, .box2, .box3 {
-  left: 10px;
+  left: 0;
   height: 490px;
   width: 280px;
   position: relative;
@@ -99,7 +103,8 @@
     height: 460px;
     width: 100%;
     max-width: 1080px;
-    gap: clamp(44px, 8vw, 110px);
+    grid-template-columns: repeat(3, 240px);
+    gap: clamp(36px, 7vw, 100px);
     margin-top: 76px;
     padding-inline: 24px;
     box-sizing: border-box;
@@ -137,12 +142,12 @@
 @media (min-width: 1600px) and (max-width: 1799px) {
   .Box,
   .Box1 {
-    width: 1190px;
+    width: 1260px;
     display: grid;
     grid-template-columns: repeat(3, 300px);
     justify-content: center;
     justify-items: center;
-    column-gap: 200px;
+    column-gap: 180px;
     margin-top: 78px;
   }
 
@@ -168,10 +173,10 @@
 
   .Box,
   .Box1 {
-    flex-direction: row;
     height: auto;
     min-height: 0;
     width: 100%;
+    grid-template-columns: repeat(3, clamp(92px, 28vw, 180px));
     gap: 14px;
     justify-content: center;
     margin-top: 14px;
@@ -229,6 +234,7 @@
   .Box,
   .Box1 {
     margin-top: 12px;
+    grid-template-columns: repeat(3, clamp(86px, 26vw, 112px));
     gap: 10px;
     padding-inline: 14px;
     padding-bottom: 12px;
